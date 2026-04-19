@@ -58,7 +58,7 @@ ELITE_REGIMEN_MIN = 0
 TRAILING_ACTIVACION = 0.020
 TRAILING_ATR_MULT   = 1.2
 
-DIR_MODELOS   = 'models'
+DIR_MODELOS   = 'models_entrenados'
 ESTADO_FILE   = 'paper_trading/estado.json'
 LOG_FILE      = 'paper_trading/operaciones.csv'
 METRICAS_FILE = 'paper_trading/metricas.json'
@@ -148,38 +148,53 @@ def actualizar_metricas(estado: Dict) -> Dict:
 # ──────────────────────────────────────────────
 
 def obtener_velas(simbolo: str) -> Optional[pd.DataFrame]:
-    """
-    Descarga velas horarias usando CryptoCompare API.
-    No tiene restricciones geográficas, funciona desde GitHub Actions.
-    """
-    moneda = simbolo.replace('/USDT', '').replace('/', '')
-    url    = (f"https://min-api.cryptocompare.com/data/v2/histohour"
-              f"?fsym={moneda}&tsym=USDT&limit={VELAS_NEEDED}&aggregate=1")
-
+    """Descarga velas horarias usando Kraken API pública."""
+    
+    # Convertir BTC/USDT → XBTUSD, ETH/USDT → ETHUSD etc
+    mapa = {
+        'BTC/USDT': 'XBTUSD',
+        'ETH/USDT': 'ETHUSD', 
+        'BNB/USDT': 'BNBUSD',
+        'SOL/USDT': 'SOLUSD',
+    }
+    par = mapa.get(simbolo, simbolo.replace('/', ''))
+    
+    # Kraken devuelve velas desde un timestamp, pedimos las últimas 300h
+    import time as time_module
+    desde = int(time_module.time()) - (VELAS_NEEDED * 3600)
+    
+    url = f"https://api.kraken.com/0/public/OHLC?pair={par}&interval=60&since={desde}"
+    
     try:
-        req = urllib.request.Request(
-            url, headers={'User-Agent': 'Mozilla/5.0'})
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read())
-
-        if data.get('Response') != 'Success':
-            print(f"  ⚠️  CryptoCompare error: {data.get('Message', 'desconocido')}")
+        
+        if data.get('error'):
+            print(f"  ⚠️  Kraken error: {data['error']}")
             return None
-
-        velas = data['Data']['Data']
+        
+        # Kraken devuelve el resultado con el nombre del par como clave
+        result = data.get('result', {})
+        clave  = [k for k in result.keys() if k != 'last']
+        if not clave:
+            print(f"  ⚠️  Sin datos para {simbolo}")
+            return None
+        
+        velas = result[clave[0]]
         if len(velas) < 200:
             print(f"  ⚠️  Pocas velas: {len(velas)}")
             return None
-
-        df = pd.DataFrame(velas)
-        df['timestamp'] = pd.to_datetime(df['time'], unit='s')
-        df = df.rename(columns={'volumefrom': 'volume'})
+        
+        df = pd.DataFrame(velas, columns=[
+            'time', 'open', 'high', 'low', 'close', 'vwap', 'volume', 'count'
+        ])
+        df['timestamp'] = pd.to_datetime(df['time'].astype(int), unit='s')
         for col in ['open', 'high', 'low', 'close', 'volume']:
             df[col] = df[col].astype(float)
-
-        df = df[['timestamp', 'open', 'high', 'low', 'close', 'volume']]
-        return df.sort_values('timestamp').reset_index(drop=True)
-
+        
+        return df[['timestamp', 'open', 'high', 'low', 'close', 'volume']].reset_index(drop=True)
+    
     except Exception as e:
         print(f"  ❌ Error obteniendo velas {simbolo}: {e}")
         return None
