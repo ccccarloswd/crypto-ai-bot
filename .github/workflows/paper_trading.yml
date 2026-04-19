@@ -23,20 +23,18 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # 2. Configurar Python
-      - name: Configurar Python 3.11
+      - name: Configurar Python 3.12
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
           cache: 'pip'
 
       # 3. Instalar dependencias
       - name: Instalar dependencias
         run: |
           pip install --upgrade pip
-          pip install ccxt pandas xgboost scikit-learn \
-                      joblib numpy scipy --quiet
-          pip install pandas-ta-openbb --quiet
-          pip install torch --quiet
+          pip install ccxt pandas pandas-ta xgboost scikit-learn \
+                      joblib numpy scipy torch --quiet
 
       # 4. Ejecutar el bot
       - name: Ejecutar paper trading
