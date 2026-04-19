@@ -618,7 +618,7 @@ def ejecutar():
             print("  ▶️  Pausa terminada. Bot activo.")
 
     # Inicializar exchange público
-    exchange = ccxt.binance({'enableRateLimit': True})
+    exchange = ccxt.bybit({'enableRateLimit': True})
 
     # Procesar cada cripto
     for simbolo in CRIPTOS:
