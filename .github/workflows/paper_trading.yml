@@ -33,8 +33,10 @@ jobs:
       - name: Instalar dependencias
         run: |
           pip install --upgrade pip
-          pip install ccxt pandas pandas-ta xgboost scikit-learn \
-                      joblib numpy scipy torch --quiet
+          pip install ccxt pandas xgboost scikit-learn \
+                      joblib numpy scipy --quiet
+          pip install git+https://github.com/twopirllc/pandas-ta.git@development --quiet
+          pip install torch --quiet
 
       # 4. Ejecutar el bot
       - name: Ejecutar paper trading
