@@ -143,6 +143,77 @@ def actualizar_metricas(estado: Dict) -> Dict:
     return m
 
 
+def añadir_features_faltantes(df: pd.DataFrame, modelos: Dict) -> pd.DataFrame:
+    """
+    Añade las features que el modelo espera pero que no se calculan
+    en tiempo real (contexto de mercado, multi-timeframe, patrones).
+    Se rellenan con valores neutros para no distorsionar las predicciones.
+    """
+    features_modelo = modelos['features']
+    features_actuales = set(df.columns.tolist())
+    
+    # Valores neutros por tipo de feature
+    valores_neutros = {
+        # Contexto mercado
+        'fear_greed': 50,
+        'fear_greed_num': 0,
+        'fear_greed_cambio': 0,
+        'mcap_btc': 0,
+        'mcap_btc_log': 0,
+        'mcap_btc_cambio_7d': 0,
+        'correlacion_btc': 1.0,
+        'descorrelacionado': 0,
+        # Régimen multi-timeframe
+        'tendencia_4h': 0,
+        'tendencia_diario': 0,
+        'tendencia_semanal': 0,
+        'rsi_4h': 50,
+        'rsi_diario': 50,
+        'rsi_semanal': 50,
+        'ema50_4h': 0,
+        'ema50_diario': 0,
+        'ema50_semanal': 0,
+        'alineacion_timeframes': 0,
+        'señal_multitf_fuerte': 0,
+        # Patrones gráficos
+        'patron_doji': 0,
+        'patron_martillo': 0,
+        'patron_estrella_fugaz': 0,
+        'patron_marubozu_alcista': 0,
+        'patron_marubozu_bajista': 0,
+        'patron_engulfing_alcista': 0,
+        'patron_engulfing_bajista': 0,
+        'patron_harami_alcista': 0,
+        'patron_morning_star': 0,
+        'patron_evening_star': 0,
+        'patron_tres_soldados': 0,
+        'patron_tres_cuervos': 0,
+        'señal_velas': 0,
+        'patron_doble_suelo': 0,
+        'patron_doble_techo': 0,
+        'patron_hch': 0,
+        'patron_hch_invertido': 0,
+        'patron_triangulo': 0,
+        'patron_flag': 0,
+        'patron_cuña': 0,
+        'en_canal': 0,
+        'posicion_canal': 0.5,
+        'señal_patrones_graficos': 0,
+        # Ichimoku
+        'ichi_tenkan': 0,
+        'ichi_kijun': 0,
+        'ichi_senkou_a': 0,
+        'ichi_senkou_b': 0,
+        'ichi_chikou': 0,
+    }
+    
+    for feature in features_modelo:
+        if feature not in features_actuales:
+            valor = valores_neutros.get(feature, 0)
+            df[feature] = valor
+    
+    return df
+  
 # ──────────────────────────────────────────────
 #  DATOS DE MERCADO — CryptoCompare
 # ──────────────────────────────────────────────
@@ -422,8 +493,8 @@ def cargar_modelo(simbolo: str) -> Optional[Dict]:
         print(f"  ❌ Error cargando modelo {simbolo}: {e}")
         return None
 
-
 def predecir(df: pd.DataFrame, modelos: Dict) -> float:
+    df = añadir_features_faltantes(df, modelos)  # ← añadir esta línea
     features      = modelos['features']
     features_disp = [f for f in features if f in df.columns]
     X = modelos['scaler'].transform(df[features_disp].values)
