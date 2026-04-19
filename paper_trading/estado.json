@@ -1,0 +1,15 @@
+{
+  "capital": 1000.0,
+  "capital_max": 1000.0,
+  "posiciones": [],
+  "bot_activo": true,
+  "en_pausa": false,
+  "fin_pausa_hora": null,
+  "n_operaciones": 0,
+  "n_wins": 0,
+  "n_loses": 0,
+  "pnl_total": 0.0,
+  "funding_total": 0.0,
+  "ultima_ejecucion": null,
+  "version": "v8"
+}
