@@ -1,0 +1,2 @@
+simbolo,fecha_entrenamiento,n_features,n_train,n_val,n_test,wfv_auc_media,wfv_auc_std,test_auc_xgb,test_auc_ensemble,test_precision,test_f1,peso_xgb,peso_lstm
+BNB_USDT,2026-04-18T20:43:49.151545,124,42759,9163,9163,0.7538249329682891,0.02715885884074566,0.7969184583380133,0.7934162169889524,1.0,0.028469750889679714,0.5853569426235297,0.41464305737647034
