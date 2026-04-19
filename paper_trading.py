@@ -22,8 +22,6 @@ from datetime import datetime, timezone
 from typing import Dict, List, Optional, Tuple
 warnings.filterwarnings('ignore')
 
-import ccxt
-
 # ──────────────────────────────────────────────
 #  CONFIGURACIÓN — igual que backtesting v8
 # ──────────────────────────────────────────────
@@ -168,21 +166,37 @@ def actualizar_metricas(estado: Dict):
 #  DATOS DE MERCADO
 # ──────────────────────────────────────────────
 
-def obtener_velas(simbolo: str, exchange) -> Optional[pd.DataFrame]:
-    """Descarga las últimas N velas de Binance (sin autenticación)."""
+def obtener_velas(simbolo: str) -> Optional[pd.DataFrame]:
+    """Descarga velas usando la API REST de Binance directamente."""
+    import urllib.request
+    
+    # Convertir BTC/USDT a BTCUSDT
+    simbolo_binance = simbolo.replace('/', '')
+    
+    url = (f"https://api.binance.com/api/v3/klines"
+           f"?symbol={simbolo_binance}&interval=1h&limit={VELAS_NEEDED}")
+    
     try:
-        ohlcv = exchange.fetch_ohlcv(simbolo, TIMEFRAME, limit=VELAS_NEEDED)
-        if not ohlcv or len(ohlcv) < 200:
-            print(f"  ⚠️  Pocas velas para {simbolo}: {len(ohlcv) if ohlcv else 0}")
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=15) as response:
+            import json as json_lib
+            data = json_lib.loads(response.read())
+        
+        if not data or len(data) < 200:
+            print(f"  ⚠️  Pocas velas para {simbolo}: {len(data) if data else 0}")
             return None
-
-        df = pd.DataFrame(ohlcv, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
+        
+        df = pd.DataFrame(data, columns=[
+            'timestamp', 'open', 'high', 'low', 'close', 'volume',
+            'close_time', 'quote_volume', 'trades', 'taker_base',
+            'taker_quote', 'ignore'
+        ])
         df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
         for col in ['open', 'high', 'low', 'close', 'volume']:
             df[col] = df[col].astype(float)
-
-        return df.sort_values('timestamp').reset_index(drop=True)
-
+        
+        return df[['timestamp', 'open', 'high', 'low', 'close', 'volume']].reset_index(drop=True)
+    
     except Exception as e:
         print(f"  ❌ Error obteniendo velas {simbolo}: {e}")
         return None
@@ -617,8 +631,6 @@ def ejecutar():
             estado['en_pausa'] = False
             print("  ▶️  Pausa terminada. Bot activo.")
 
-    # Inicializar exchange público
-    exchange = ccxt.bybit({'enableRateLimit': True})
 
     # Procesar cada cripto
     for simbolo in CRIPTOS:
@@ -626,7 +638,7 @@ def ejecutar():
         print(f"\n  📊 {simbolo}")
 
         # Obtener datos
-        df = obtener_velas(simbolo, exchange)
+        df = obtener_velas(simbolo)
         if df is None:
             continue
 
