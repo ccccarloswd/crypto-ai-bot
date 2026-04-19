@@ -35,7 +35,7 @@ jobs:
           pip install --upgrade pip
           pip install ccxt pandas xgboost scikit-learn \
                       joblib numpy scipy --quiet
-          pip install "pandas-ta @ https://github.com/twopirllc/pandas-ta/archive/refs/heads/development.zip" --quiet
+          pip install "pandas-ta @ https://github.com/twopirllc/pandas-ta/archive/refs/heads/main.zip" --quiet
           pip install torch --quiet
 
       # 4. Ejecutar el bot
