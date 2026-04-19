@@ -166,37 +166,49 @@ def actualizar_metricas(estado: Dict):
 #  DATOS DE MERCADO
 # ──────────────────────────────────────────────
 
-def obtener_velas(simbolo: str) -> Optional[pd.DataFrame]:
-    """Descarga velas usando la API REST de Binance directamente."""
+def obtener_velas(simbolo: str, exchange=None) -> Optional[pd.DataFrame]:
+    """Descarga velas horarias usando CryptoCompare API (sin restricciones geográficas)."""
     import urllib.request
-    
-    # Convertir BTC/USDT a BTCUSDT
-    simbolo_binance = simbolo.replace('/', '')
-    
-    url = (f"https://api.binance.com/api/v3/klines"
-           f"?symbol={simbolo_binance}&interval=1h&limit={VELAS_NEEDED}")
-    
+    import json as json_lib
+
+    # Convertir BTC/USDT a BTC
+    moneda = simbolo.replace('/USDT', '').replace('/', '')
+
+    url = (f"https://min-api.cryptocompare.com/data/v2/histohour"
+           f"?fsym={moneda}&tsym=USDT&limit={VELAS_NEEDED}&aggregate=1")
+
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        req = urllib.request.Request(
+            url,
+            headers={'User-Agent': 'Mozilla/5.0', 'authorization': ''}
+        )
         with urllib.request.urlopen(req, timeout=15) as response:
-            import json as json_lib
             data = json_lib.loads(response.read())
-        
-        if not data or len(data) < 200:
-            print(f"  ⚠️  Pocas velas para {simbolo}: {len(data) if data else 0}")
+
+        if data.get('Response') != 'Success':
+            print(f"  ⚠️  Error API CryptoCompare: {data.get('Message')}")
             return None
-        
-        df = pd.DataFrame(data, columns=[
-            'timestamp', 'open', 'high', 'low', 'close', 'volume',
-            'close_time', 'quote_volume', 'trades', 'taker_base',
-            'taker_quote', 'ignore'
-        ])
-        df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
+
+        velas = data['Data']['Data']
+        if len(velas) < 200:
+            print(f"  ⚠️  Pocas velas: {len(velas)}")
+            return None
+
+        df = pd.DataFrame(velas)
+        df['timestamp'] = pd.to_datetime(df['time'], unit='s')
+        df = df.rename(columns={
+            'open':       'open',
+            'high':       'high',
+            'low':        'low',
+            'close':      'close',
+            'volumefrom': 'volume',
+        })
+
         for col in ['open', 'high', 'low', 'close', 'volume']:
             df[col] = df[col].astype(float)
-        
+
         return df[['timestamp', 'open', 'high', 'low', 'close', 'volume']].reset_index(drop=True)
-    
+
     except Exception as e:
         print(f"  ❌ Error obteniendo velas {simbolo}: {e}")
         return None
