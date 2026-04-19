@@ -14,7 +14,7 @@ import os
 import json
 import time
 import numpy as np
-import pandas_ta_openbb as ta
+import pandas_ta as ta
 import joblib
 import warnings
 from datetime import datetime, timezone
