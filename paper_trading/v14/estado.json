@@ -11,8 +11,8 @@
   "pnl_total": 0.0,
   "funding_total": 0.0,
   "ops_hoy": [],
-  "ultima_ejecucion": "2026-04-21T22:31:55.151635+00:00",
-  "primera_ejecucion": true,
+  "ultima_ejecucion": "2026-04-21T22:41:48.958967+00:00",
+  "primera_ejecucion": false,
   "historial_pnl": [],
   "adaptive_factor": 1.0,
   "adaptive_trades_left": 0
