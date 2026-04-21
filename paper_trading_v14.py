@@ -82,11 +82,7 @@ def telegram(msg: str):
         # lo pasamos siempre como string en el JSON pero sin comillas extra
         chat_id_clean = chat_id.strip().strip('"').strip("'")
         url  = f"https://api.telegram.org/bot{token}/sendMessage"
-        data = json.dumps({
-            'chat_id':    chat_id_clean,
-            'text':       msg,
-            'parse_mode': 'HTML'
-        }).encode()
+        data = json.dumps({'chat_id': chat_id, 'text': msg}).encode()
         req  = urllib.request.Request(url, data=data,
                                        headers={'Content-Type': 'application/json'})
         urllib.request.urlopen(req, timeout=10)
