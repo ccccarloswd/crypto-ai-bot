@@ -1,0 +1,50 @@
+name: Paper Trading v13
+
+on:
+  schedule:
+    - cron: '5 * * * *'   # cada hora en el minuto 5
+  workflow_dispatch:       # ejecución manual
+
+jobs:
+  paper-trading-v13:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar dependencias
+        run: |
+          pip install --upgrade pip
+          pip install ccxt pandas xgboost scikit-learn \
+                      joblib numpy scipy --quiet
+          pip install "pandas-ta @ https://github.com/twopirllc/pandas-ta/archive/refs/heads/develop.zip" --quiet || \
+          pip install pandas-ta --quiet || true
+          pip install torch --quiet
+
+      - name: Ejecutar bot v13
+        env:
+          TELEGRAM_TOKEN_V13:   ${{ secrets.TELEGRAM_TOKEN_V13 }}
+          TELEGRAM_CHAT_ID_V13: ${{ secrets.TELEGRAM_CHAT_ID_V13 }}
+        run: python paper_trading_v13.py
+
+      - name: Guardar estado
+        if: always()
+        run: |
+          git config user.name  "crypto-bot-v13"
+          git config user.email "bot-v13@crypto-ai.com"
+          git add paper_trading/v13/
+          git diff --staged --quiet || git commit -m "v13 estado $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
