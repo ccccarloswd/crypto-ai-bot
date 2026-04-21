@@ -1,0 +1,19 @@
+{
+  "capital": 1000.0,
+  "capital_max": 1000.0,
+  "posiciones": [],
+  "bot_activo": true,
+  "en_pausa": false,
+  "fin_pausa_hora": null,
+  "n_ops": 0,
+  "n_wins": 0,
+  "n_loses": 0,
+  "pnl_total": 0.0,
+  "funding_total": 0.0,
+  "ops_hoy": [],
+  "ultima_ejecucion": null,
+  "primera_ejecucion": true,
+  "historial_pnl": [],
+  "adaptive_factor": 1.0,
+  "adaptive_trades_left": 0
+}
