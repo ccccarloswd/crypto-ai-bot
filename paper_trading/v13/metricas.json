@@ -1,0 +1,13 @@
+{
+  "version": "v13",
+  "capital_actual": 1000.0,
+  "capital_inicial": 1000.0,
+  "rentabilidad_pct": 0.0,
+  "n_operaciones": 0,
+  "win_rate_pct": 0.0,
+  "pnl_total": 0.0,
+  "funding_total": 0.0,
+  "posiciones_abiertas": 0,
+  "bot_activo": true,
+  "ultima_actualizacion": "2026-04-21T23:49:41.299248+00:00"
+}
