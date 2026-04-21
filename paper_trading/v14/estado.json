@@ -12,7 +12,7 @@
   "funding_total": 0.0,
   "ops_hoy": [],
   "ultima_ejecucion": "2026-04-21T22:41:48.958967+00:00",
-  "primera_ejecucion": false,
+  "primera_ejecucion": true,
   "historial_pnl": [],
   "adaptive_factor": 1.0,
   "adaptive_trades_left": 0
