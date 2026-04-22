@@ -650,6 +650,13 @@ def ejecutar():
 
         try:
             df=calcular_indicadores(df)
+            # Añade esto temporalmente en el loop, después de calcular indicadores
+            ultima = df.iloc[-2]
+            print(f"  regimen_mercado: {ultima.get('regimen_mercado', 'N/A')}")
+            print(f"  rsi_14: {ultima.get('rsi_14', 'N/A'):.1f}")
+            print(f"  macd_hist: {ultima.get('macd_hist', 'N/A'):.4f}")
+            print(f"  close vs sma_20: {ultima.get('close', 0):.2f} vs {ultima.get('sma_20', 0):.2f}")
+            print(f"  vol_bajo: {ultima.get('volumen_muy_bajo', 'N/A')}")
         except Exception as e:
             print(f"  ❌ Indicadores: {e}"); continue
 
@@ -713,6 +720,7 @@ def ejecutar():
 
         time.sleep(0.5)
 
+    
     guardar_estado(estado)
     m=guardar_metricas(estado)
     s='+' if m['rentabilidad_pct']>=0 else ''
