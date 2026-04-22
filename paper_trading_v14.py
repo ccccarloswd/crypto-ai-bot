@@ -59,7 +59,7 @@ SHORT_CONFIG = {
                 'sl_mult': 1.3, 'sl_max': 0.022, 'tp_ratio': 2.8, 'tp_max': 0.055},
     'premium': {'prob': 0.62, 'leverage': 4, 'margen': 0.15,
                 'sl_mult': 1.5, 'sl_max': 0.025, 'tp_ratio': 2.5, 'tp_max': 0.045},
-    'regimen_max': 1,
+    'regimen_max': 2,
 }
 
 DIR_MODELOS   = 'models'
