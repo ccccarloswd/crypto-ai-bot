@@ -18,6 +18,23 @@
       "ts_entrada": "2026-04-23 14:00:00",
       "adaptive_factor": 1.0,
       "modo_sltp": "ESTANDAR"
+    },
+    {
+      "simbolo": "ETH_USDT",
+      "dir": "short",
+      "calidad": "premium",
+      "precio_entrada": 2331.4337,
+      "precio_ref": 2331.4337,
+      "sl": 2350.0851696,
+      "tp": 2287.4998151981877,
+      "liq": 2506.2912275,
+      "margen": 167.1188161315702,
+      "lev": 12,
+      "hora_entrada": 493607,
+      "trailing": false,
+      "ts_entrada": "2026-04-23 22:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "REBOTE"
     }
   ],
   "bot_activo": true,
@@ -40,7 +57,7 @@
       "capital": 1012.84
     }
   ],
-  "ultima_ejecucion": "2026-04-23T22:25:33.518873+00:00",
+  "ultima_ejecucion": "2026-04-23T23:29:12.523616+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0
