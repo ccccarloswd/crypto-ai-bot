@@ -1,33 +1,16 @@
 {
-  "capital": 1000.0,
-  "capital_max": 1000.0,
+  "capital": 1128.8436984083319,
+  "capital_max": 1128.8436984083319,
   "posiciones": [
     {
       "simbolo": "BTC_USDT",
       "dir": "short",
       "calidad": "elite",
       "precio_entrada": 78888.3361,
-      "precio_ref": 77892.6,
-      "sl": 78419.31327361532,
+      "precio_ref": 77683.6,
+      "sl": 78207.95375405473,
       "tp": 77288.96930000001,
       "liq": 83621.636266,
-      "margen": 325.0,
-      "lev": 15,
-      "hora_entrada": 493578,
-      "trailing": true,
-      "ts_entrada": "2026-04-22 17:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "REBOTE"
-    },
-    {
-      "simbolo": "ETH_USDT",
-      "dir": "short",
-      "calidad": "elite",
-      "precio_entrada": 2398.22029,
-      "precio_ref": 2340.66,
-      "sl": 2361.2339035957034,
-      "tp": 2334.56377,
-      "liq": 2542.1135074000003,
       "margen": 325.0,
       "lev": 15,
       "hora_entrada": 493578,
@@ -41,8 +24,8 @@
       "dir": "short",
       "calidad": "elite",
       "precio_entrada": 644.59754,
-      "precio_ref": 635.05,
-      "sl": 639.0878315518928,
+      "precio_ref": 633.15,
+      "sl": 636.4836640661388,
       "tp": 630.0924495959822,
       "liq": 683.2733924,
       "margen": 299.0,
@@ -52,17 +35,48 @@
       "ts_entrada": "2026-04-22 17:00:00",
       "adaptive_factor": 1.0,
       "modo_sltp": "ESTANDAR"
+    },
+    {
+      "simbolo": "ETH_USDT",
+      "dir": "short",
+      "calidad": "elite",
+      "precio_entrada": 2316.211315,
+      "precio_ref": 2316.211315,
+      "sl": 2335.1732333672708,
+      "tp": 2278.287478265459,
+      "liq": 2455.1839939,
+      "margen": 366.87420198270786,
+      "lev": 15,
+      "hora_entrada": 493594,
+      "trailing": false,
+      "ts_entrada": "2026-04-23 09:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "REBOTE"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 0,
-  "n_wins": 0,
+  "n_ops": 1,
+  "n_wins": 1,
   "n_loses": 0,
-  "pnl_total": 0.0,
-  "funding_total": 0.0,
-  "ops_hoy": [],
-  "ultima_ejecucion": "2026-04-23T09:01:14.524054+00:00",
-  "primera_ejecucion": false
+  "pnl_total": 128.84369840833182,
+  "funding_total": 23.4,
+  "ops_hoy": [
+    {
+      "ts": "2026-04-23 09:00:00",
+      "simbolo": "ETH_USDT",
+      "dir": "short",
+      "motivo": "take_profit",
+      "entrada": 2398.2203,
+      "salida": 2318.5287,
+      "pnl": 128.84,
+      "capital": 1128.84
+    }
+  ],
+  "ultima_ejecucion": "2026-04-23T10:43:13.341742+00:00",
+  "primera_ejecucion": false,
+  "historial_pnl": [
+    1.0
+  ]
 }
