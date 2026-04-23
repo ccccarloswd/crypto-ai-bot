@@ -7,7 +7,7 @@
       "dir": "short",
       "calidad": "elite",
       "precio_entrada": 2334.1123600000005,
-      "precio_ref": 2334.1123600000005,
+      "precio_ref": 2326.82,
       "sl": 2352.7852588800006,
       "tp": 2281.8984731563096,
       "liq": 2474.1591016000007,
@@ -35,6 +35,23 @@
       "ts_entrada": "2026-04-23 14:00:00",
       "adaptive_factor": 1.0,
       "modo_sltp": "ESTANDAR"
+    },
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "calidad": "elite",
+      "precio_entrada": 78096.53220000002,
+      "precio_ref": 78096.53220000002,
+      "sl": 78970.10151362224,
+      "tp": 76349.39357275557,
+      "liq": 82782.32413200002,
+      "margen": 348.40122441766795,
+      "lev": 15,
+      "hora_entrada": 493601,
+      "trailing": false,
+      "ts_entrada": "2026-04-23 16:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "REBOTE"
     }
   ],
   "bot_activo": true,
@@ -87,7 +104,7 @@
       "capital": 1072.0
     }
   ],
-  "ultima_ejecucion": "2026-04-23T15:22:03.997654+00:00",
+  "ultima_ejecucion": "2026-04-23T17:42:48.733393+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
