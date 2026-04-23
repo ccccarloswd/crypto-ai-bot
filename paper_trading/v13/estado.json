@@ -7,7 +7,7 @@
       "dir": "short",
       "calidad": "elite",
       "precio_entrada": 2334.1123600000005,
-      "precio_ref": 2326.82,
+      "precio_ref": 2306.14,
       "sl": 2352.7852588800006,
       "tp": 2281.8984731563096,
       "liq": 2474.1591016000007,
@@ -24,7 +24,7 @@
       "dir": "short",
       "calidad": "elite",
       "precio_entrada": 636.9113850000001,
-      "precio_ref": 636.9113850000001,
+      "precio_ref": 634.42,
       "sl": 642.0066760800001,
       "tp": 626.4119548759886,
       "liq": 675.1260681000001,
@@ -41,7 +41,7 @@
       "dir": "short",
       "calidad": "elite",
       "precio_entrada": 78096.53220000002,
-      "precio_ref": 78096.53220000002,
+      "precio_ref": 77726.7,
       "sl": 78970.10151362224,
       "tp": 76349.39357275557,
       "liq": 82782.32413200002,
@@ -104,7 +104,7 @@
       "capital": 1072.0
     }
   ],
-  "ultima_ejecucion": "2026-04-23T17:42:48.733393+00:00",
+  "ultima_ejecucion": "2026-04-23T19:38:15.208046+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
