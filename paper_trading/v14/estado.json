@@ -1,24 +1,7 @@
 {
-  "capital": 1012.8413098883043,
+  "capital": 998.6121068189963,
   "capital_max": 1000.0,
   "posiciones": [
-    {
-      "simbolo": "BNB_USDT",
-      "dir": "short",
-      "calidad": "elite",
-      "precio_entrada": 636.9113850000001,
-      "precio_ref": 634.21,
-      "sl": 642.0066760800001,
-      "tp": 626.7208028400001,
-      "liq": 668.7569542500001,
-      "margen": 180.0,
-      "lev": 18,
-      "hora_entrada": 493599,
-      "trailing": false,
-      "ts_entrada": "2026-04-23 14:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "ESTANDAR"
-    },
     {
       "simbolo": "ETH_USDT",
       "dir": "short",
@@ -40,11 +23,11 @@
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 1,
+  "n_ops": 2,
   "n_wins": 1,
-  "n_loses": 0,
-  "pnl_total": 12.841309888304323,
-  "funding_total": 1.782,
+  "n_loses": 1,
+  "pnl_total": -1.387893181003676,
+  "funding_total": 17.333999999999996,
   "ops_hoy": [
     {
       "ts": "2026-04-23 17:00:00",
@@ -55,12 +38,23 @@
       "salida": 2312.2055,
       "pnl": 12.84,
       "capital": 1012.84
+    },
+    {
+      "ts": "2026-04-24 06:00:00",
+      "simbolo": "BNB_USDT",
+      "dir": "short",
+      "motivo": "tiempo_maximo",
+      "entrada": 636.9114,
+      "salida": 635.3775,
+      "pnl": -14.23,
+      "capital": 998.61
     }
   ],
-  "ultima_ejecucion": "2026-04-24T04:42:24.970264+00:00",
+  "ultima_ejecucion": "2026-04-24T07:20:12.761384+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
-    1.0
+    1.0,
+    0.0
   ],
   "adaptive_factor": 1.0,
   "adaptive_trades_left": 0
