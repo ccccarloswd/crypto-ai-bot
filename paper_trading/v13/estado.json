@@ -1,24 +1,7 @@
 {
-  "capital": 1038.2212293547418,
+  "capital": 991.1565144190399,
   "capital_max": 1128.8436984083319,
   "posiciones": [
-    {
-      "simbolo": "BTC_USDT",
-      "dir": "short",
-      "calidad": "elite",
-      "precio_entrada": 78096.53220000002,
-      "precio_ref": 77726.7,
-      "sl": 78970.10151362224,
-      "tp": 76349.39357275557,
-      "liq": 82782.32413200002,
-      "margen": 348.40122441766795,
-      "lev": 15,
-      "hora_entrada": 493601,
-      "trailing": false,
-      "ts_entrada": "2026-04-23 16:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "REBOTE"
-    },
     {
       "simbolo": "ETH_USDT",
       "dir": "short",
@@ -52,16 +35,33 @@
       "ts_entrada": "2026-04-24 10:00:00",
       "adaptive_factor": 1.0,
       "modo_sltp": "REBOTE"
+    },
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "calidad": "elite",
+      "precio_entrada": 78073.54370000001,
+      "precio_ref": 78073.54370000001,
+      "sl": 78728.74097861408,
+      "tp": 76763.14914277186,
+      "liq": 82757.95632200001,
+      "margen": 322.12586718618803,
+      "lev": 15,
+      "hora_entrada": 493622,
+      "trailing": false,
+      "ts_entrada": "2026-04-24 13:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "REBOTE"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 6,
+  "n_ops": 7,
   "n_wins": 2,
-  "n_loses": 4,
-  "pnl_total": 38.22122935474181,
-  "funding_total": 150.48067429291797,
+  "n_loses": 5,
+  "pnl_total": -8.843485580960028,
+  "funding_total": 183.40459000038757,
   "ops_hoy": [
     {
       "ts": "2026-04-23 09:00:00",
@@ -122,15 +122,26 @@
       "salida": 635.5876,
       "pnl": -28.47,
       "capital": 1038.22
+    },
+    {
+      "ts": "2026-04-24 13:00:00",
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "motivo": "tiempo_maximo",
+      "entrada": 78096.5322,
+      "salida": 78151.6563,
+      "pnl": -47.06,
+      "capital": 991.16
     }
   ],
-  "ultima_ejecucion": "2026-04-24T11:18:35.551125+00:00",
+  "ultima_ejecucion": "2026-04-24T14:03:00.724808+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
     0.0,
     0.0,
     1.0,
+    0.0,
     0.0,
     0.0
   ]
