@@ -1,0 +1,2 @@
+simbolo,tipo,target_col,fecha_entrenamiento,n_features,n_train,n_val,n_test,wfv_auc_media,wfv_auc_std,test_auc_xgb,test_auc_ensemble,test_precision,test_f1,peso_xgb,peso_lstm
+SOL_USDT,long,target_subida,2026-04-20T09:35:42.122780,124,34648,7425,7425,0.7520909634996266,0.033492414317688526,0.7590863891709649,0.7590863891709649,0.5173697270471465,0.4809688581314879,0.6,0.4
