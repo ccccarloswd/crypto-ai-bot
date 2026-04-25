@@ -1,2 +1,0 @@
-simbolo,tipo,target_col,fecha_entrenamiento,n_features,n_train,n_val,n_test,wfv_auc_media,wfv_auc_std,test_auc_xgb,test_auc_ensemble,test_precision,test_f1,peso_xgb,peso_lstm
-ETH_USDT,short,target_bajada,2026-04-20T09:33:47.418755,124,42759,9163,9163,0.7253532491194562,0.03529520071510014,0.7844988028952371,0.7844988028952371,0.5813008130081301,0.443961502638932,0.6,0.4

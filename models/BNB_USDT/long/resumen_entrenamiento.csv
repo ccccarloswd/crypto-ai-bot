@@ -1,2 +1,0 @@
-simbolo,tipo,target_col,fecha_entrenamiento,n_features,n_train,n_val,n_test,wfv_auc_media,wfv_auc_std,test_auc_xgb,test_auc_ensemble,test_precision,test_f1,peso_xgb,peso_lstm
-BNB_USDT,long,target_subida,2026-04-20T09:34:27.041162,124,42759,9163,9163,0.7617356649520041,0.027122824258469708,0.7710732297798195,0.7710732297798195,0.46070460704607047,0.40930979133226325,0.6,0.4
