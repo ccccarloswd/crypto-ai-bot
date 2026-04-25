@@ -1,7 +1,50 @@
 {
   "capital": 1000.0,
   "capital_max": 1000.0,
-  "posiciones": [],
+  "posiciones": [
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 77670.6159,
+      "precio_ref": 77670.6159,
+      "sl": 77145.04879834,
+      "tp": 78702.65264365,
+      "liq": 71809.41500000001,
+      "margen": 168.0,
+      "lev": 12,
+      "hora_entrada": 493655,
+      "max_horas": 48,
+      "trailing": false,
+      "ts_entrada": "2026-04-25 22:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "EMA100",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 203.575124
+    },
+    {
+      "simbolo": "BNB_USDT",
+      "dir": "long",
+      "calidad": "nivel1",
+      "precio_entrada": 628.944315,
+      "precio_ref": 628.944315,
+      "sl": 622.87122983,
+      "tp": 637.89548,
+      "liq": 487.18825,
+      "margen": 96.0,
+      "lev": 4,
+      "hora_entrada": 493655,
+      "max_horas": 48,
+      "trailing": false,
+      "ts_entrada": "2026-04-25 22:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "BB_inf",
+      "tp_nivel": "MAX50",
+      "atr_entrada": 1.687177
+    }
+  ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
@@ -11,6 +54,6 @@
   "pnl_total": 0.0,
   "funding_total": 0.0,
   "ops_hoy": [],
-  "ultima_ejecucion": null,
-  "primera_ejecucion": true
+  "ultima_ejecucion": "2026-04-25T23:57:50.198065+00:00",
+  "primera_ejecucion": false
 }
