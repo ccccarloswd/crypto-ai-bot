@@ -1,41 +1,7 @@
 {
-  "capital": 991.1565144190399,
+  "capital": 900.1027942376012,
   "capital_max": 1128.8436984083319,
   "posiciones": [
-    {
-      "simbolo": "ETH_USDT",
-      "dir": "short",
-      "calidad": "premium",
-      "precio_entrada": 2315.52166,
-      "precio_ref": 2312.71,
-      "sl": 2334.04583328,
-      "tp": 2270.921554122093,
-      "liq": 2523.9186094,
-      "margen": 293.3402885810579,
-      "lev": 10,
-      "hora_entrada": 493619,
-      "trailing": false,
-      "ts_entrada": "2026-04-24 10:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "REBOTE"
-    },
-    {
-      "simbolo": "BNB_USDT",
-      "dir": "short",
-      "calidad": "elite",
-      "precio_entrada": 634.952365,
-      "precio_ref": 634.952365,
-      "sl": 640.03198392,
-      "tp": 624.7931271599999,
-      "liq": 673.0495069,
-      "margen": 337.42189954029107,
-      "lev": 15,
-      "hora_entrada": 493619,
-      "trailing": false,
-      "ts_entrada": "2026-04-24 10:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "REBOTE"
-    },
     {
       "simbolo": "BTC_USDT",
       "dir": "short",
@@ -55,13 +21,13 @@
     }
   ],
   "bot_activo": true,
-  "en_pausa": false,
-  "fin_pausa_hora": null,
-  "n_ops": 7,
+  "en_pausa": true,
+  "fin_pausa_hora": 493663,
+  "n_ops": 9,
   "n_wins": 2,
-  "n_loses": 5,
-  "pnl_total": -8.843485580960028,
-  "funding_total": 183.40459000038757,
+  "n_loses": 7,
+  "pnl_total": -99.89720576239873,
+  "funding_total": 231.37297827387724,
   "ops_hoy": [
     {
       "ts": "2026-04-23 09:00:00",
@@ -132,15 +98,37 @@
       "salida": 78151.6563,
       "pnl": -47.06,
       "capital": 991.16
+    },
+    {
+      "ts": "2026-04-25 06:00:00",
+      "simbolo": "ETH_USDT",
+      "dir": "short",
+      "motivo": "tiempo_maximo",
+      "entrada": 2315.5217,
+      "salida": 2317.6783,
+      "pnl": -26.2,
+      "capital": 964.96
+    },
+    {
+      "ts": "2026-04-25 06:00:00",
+      "simbolo": "BNB_USDT",
+      "dir": "short",
+      "motivo": "tiempo_maximo",
+      "entrada": 634.9524,
+      "salida": 638.0088,
+      "pnl": -64.85,
+      "capital": 900.1
     }
   ],
-  "ultima_ejecucion": "2026-04-25T05:56:16.503390+00:00",
+  "ultima_ejecucion": "2026-04-25T07:43:48.779276+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
     0.0,
     0.0,
     1.0,
+    0.0,
+    0.0,
     0.0,
     0.0,
     0.0
