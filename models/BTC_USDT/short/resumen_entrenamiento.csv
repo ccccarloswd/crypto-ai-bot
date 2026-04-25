@@ -1,0 +1,2 @@
+simbolo,tipo,target_col,fecha_entrenamiento,n_features,n_train,n_val,n_test,wfv_auc_media,wfv_auc_std,test_auc_xgb,test_auc_ensemble,test_precision,test_f1,peso_xgb,peso_lstm
+BTC_USDT,short,target_bajada,2026-04-20T09:32:28.161470,123,42759,9163,9163,0.7622241934032816,0.032327960603029386,0.7697922188775254,0.7697922188775254,0.31874405328258804,0.4036144578313253,0.6,0.4
