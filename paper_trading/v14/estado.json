@@ -7,7 +7,7 @@
       "dir": "short",
       "calidad": "elite",
       "precio_entrada": 635.86191,
-      "precio_ref": 635.86191,
+      "precio_ref": 634.77,
       "sl": 639.32307339,
       "tp": 626.75077983,
       "liq": 667.9889999999999,
@@ -54,6 +54,6 @@
   "pnl_total": 0.0,
   "funding_total": 0.0,
   "ops_hoy": [],
-  "ultima_ejecucion": "2026-04-25T11:25:30.471792+00:00",
+  "ultima_ejecucion": "2026-04-25T12:06:20.853379+00:00",
   "primera_ejecucion": false
 }
