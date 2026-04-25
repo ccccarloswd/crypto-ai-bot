@@ -22,6 +22,27 @@
       "sl_nivel": "EMA9",
       "tp_nivel": "ATR_fallback",
       "atr_entrada": 2.367075
+    },
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "calidad": "premium",
+      "precio_entrada": 77651.05505,
+      "precio_ref": 77651.05505,
+      "sl": 78058.6417,
+      "tp": 76893.65788321,
+      "liq": 83516.64249999999,
+      "margen": 180.0,
+      "lev": 12,
+      "hora_entrada": 493643,
+      "max_horas": 48,
+      "trailing": false,
+      "ts_entrada": "2026-04-25 10:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "SMA50",
+      "tp_nivel": "EMA200",
+      "atr_entrada": 240.323898
     }
   ],
   "bot_activo": true,
@@ -33,6 +54,6 @@
   "pnl_total": 0.0,
   "funding_total": 0.0,
   "ops_hoy": [],
-  "ultima_ejecucion": "2026-04-25T10:27:43.739787+00:00",
+  "ultima_ejecucion": "2026-04-25T11:25:30.471792+00:00",
   "primera_ejecucion": false
 }
