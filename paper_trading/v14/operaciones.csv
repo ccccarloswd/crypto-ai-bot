@@ -3,3 +3,4 @@ ts,simbolo,dir,motivo,entrada,salida,pnl,capital
 2026-04-24 06:00:00,BNB_USDT,short,tiempo_maximo,636.9114,635.3775,-14.23,998.61
 2026-04-24 15:00:00,ETH_USDT,short,tiempo_maximo,2331.4337,2325.8223,-9.41,989.2
 2026-04-26 15:00:00,ETH_USDT,short,stop_loss,2331.4237,2350.6848,-49.51,950.49
+2026-04-26 18:00:00,ETH_USDT,short,stop_loss,2345.9964,2363.8113,-3.83,946.66
