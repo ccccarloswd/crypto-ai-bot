@@ -49,8 +49,8 @@
       "dir": "long",
       "calidad": "nivel3",
       "precio_entrada": 2310.704775,
-      "precio_ref": 2331.59,
-      "sl": 2322.74305672423,
+      "precio_ref": 2332.69,
+      "sl": 2323.946981243488,
       "tp": 2352.78332,
       "liq": 2205.62025,
       "margen": 216.0,
@@ -106,6 +106,27 @@
       "sl_nivel": "ATR_fallback",
       "tp_nivel": "ATR_fallback",
       "atr_entrada": 7.853673
+    },
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "calidad": "nivel2",
+      "precio_entrada": 77949.60570000001,
+      "precio_ref": 77949.60570000001,
+      "sl": 78474.3676,
+      "tp": 76919.91128,
+      "liq": 83837.74500000001,
+      "margen": 168.0,
+      "lev": 12,
+      "hora_entrada": 493665,
+      "max_horas": 48,
+      "trailing": false,
+      "ts_entrada": "2026-04-26 08:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "FIB_236",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 206.025108
     }
   ],
   "bot_activo": true,
@@ -117,6 +138,6 @@
   "pnl_total": 0.0,
   "funding_total": 0.0,
   "ops_hoy": [],
-  "ultima_ejecucion": "2026-04-26T08:07:32.533308+00:00",
+  "ultima_ejecucion": "2026-04-26T09:34:23.249360+00:00",
   "primera_ejecucion": false
 }
