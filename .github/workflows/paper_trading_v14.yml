@@ -44,3 +44,20 @@ jobs:
           git add paper_trading/v14/
           git diff --staged --quiet || git commit -m "v14 estado $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
+
+
+      - name: Preparar datos para el dashboard
+        run: |
+          mkdir -p docs/data
+          cp paper_trading/v14/estado.json   docs/data/estado.json
+          cp paper_trading/v14/metricas.json docs/data/metricas.json
+          python scripts/csv_to_json.py
+
+      - name: Publicar dashboard
+        run: |
+          git config --global user.name  "CMN Trading Bot"
+          git config --global user.email "bot@cmn-trading.com"
+          git add docs/
+          git diff --quiet && git diff --staged --quiet \
+            || git commit -m "📊 Bot update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
