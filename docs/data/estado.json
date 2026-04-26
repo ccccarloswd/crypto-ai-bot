@@ -45,6 +45,28 @@
       "tp_nivel": "ATR_fallback",
       "atr_entrada": 0.38337,
       "ia_ajuste": "IA no disponible \u2014 SL/TP sin ajuste"
+    },
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "calidad": "nivel1",
+      "precio_entrada": 78403.57860000001,
+      "precio_ref": 78403.57860000001,
+      "sl": 79278.5712,
+      "tp": 76938.41184,
+      "liq": 96092.43000000001,
+      "margen": 96.0,
+      "lev": 4,
+      "hora_entrada": 493678,
+      "max_horas": 48,
+      "trailing": false,
+      "ts_entrada": "2026-04-26 21:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "MAX50",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 284.094231,
+      "ia_ajuste": "IA no disponible \u2014 SL/TP sin ajuste"
     }
   ],
   "bot_activo": true,
@@ -56,6 +78,6 @@
   "pnl_total": 0.0,
   "funding_total": 0.0,
   "ops_hoy": [],
-  "ultima_ejecucion": "2026-04-26T22:00:06.505593+00:00",
+  "ultima_ejecucion": "2026-04-26T22:07:50.132940+00:00",
   "primera_ejecucion": false
 }
