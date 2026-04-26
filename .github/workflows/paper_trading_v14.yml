@@ -56,8 +56,7 @@ jobs:
           git config user.email "bot@cmn-trading.com"
 
           # Añadir todo de una vez
-          git add paper_trading/v14/
-          git add docs/
+          git add -A
 
           # Solo commitear si hay cambios reales
           if git diff --staged --quiet; then
