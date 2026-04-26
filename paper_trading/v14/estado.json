@@ -43,6 +43,27 @@
       "sl_nivel": "BB_sup",
       "tp_nivel": "ATR_fallback",
       "atr_entrada": 6.806939
+    },
+    {
+      "simbolo": "BNB_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 632.4960899999999,
+      "precio_ref": 632.4960899999999,
+      "sl": 628.01828,
+      "tp": 641.335784,
+      "liq": 584.7665,
+      "margen": 168.0,
+      "lev": 12,
+      "hora_entrada": 493671,
+      "max_horas": 48,
+      "trailing": false,
+      "ts_entrada": "2026-04-26 14:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "SMA20",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 1.613464
     }
   ],
   "bot_activo": true,
@@ -54,6 +75,6 @@
   "pnl_total": 0.0,
   "funding_total": 0.0,
   "ops_hoy": [],
-  "ultima_ejecucion": "2026-04-26T12:40:27.815405+00:00",
+  "ultima_ejecucion": "2026-04-26T15:16:41.598117+00:00",
   "primera_ejecucion": false
 }
