@@ -1,0 +1,202 @@
+{
+  "BTCUSDT": {
+    "oportunidad_1h": {
+      "auc": 0.5342,
+      "accuracy": 0.4808,
+      "precision": 0.4808,
+      "recall": 1.0,
+      "f1": 0.6493,
+      "umbral": 0.337
+    },
+    "exito_long_1h": {
+      "auc": 0.6197,
+      "accuracy": 0.2934,
+      "precision": 0.2694,
+      "recall": 0.9879,
+      "f1": 0.4233,
+      "umbral": 0.2
+    },
+    "exito_short_1h": {
+      "auc": 0.5273,
+      "accuracy": 0.4462,
+      "precision": 0.3032,
+      "recall": 0.7203,
+      "f1": 0.4268,
+      "umbral": 0.2567
+    },
+    "oportunidad_4h": {
+      "auc": 0.4769,
+      "accuracy": 0.4854,
+      "precision": 0.4884,
+      "recall": 0.9663,
+      "f1": 0.6489,
+      "umbral": 0.4475
+    },
+    "exito_long_4h": {
+      "auc": 0.6947,
+      "accuracy": 0.3847,
+      "precision": 0.2436,
+      "recall": 0.8873,
+      "f1": 0.3822,
+      "umbral": 0.2
+    },
+    "exito_short_4h": {
+      "auc": 0.4415,
+      "accuracy": 0.2558,
+      "precision": 0.2523,
+      "recall": 0.996,
+      "f1": 0.4026,
+      "umbral": 0.2235
+    }
+  },
+  "ETHUSDT": {
+    "oportunidad_1h": {
+      "auc": 0.5003,
+      "accuracy": 0.4925,
+      "precision": 0.4924,
+      "recall": 1.0,
+      "f1": 0.6599,
+      "umbral": 0.3284
+    },
+    "exito_long_1h": {
+      "auc": 0.5664,
+      "accuracy": 0.3927,
+      "precision": 0.3045,
+      "recall": 0.9056,
+      "f1": 0.4558,
+      "umbral": 0.2061
+    },
+    "exito_short_1h": {
+      "auc": 0.5382,
+      "accuracy": 0.3828,
+      "precision": 0.2902,
+      "recall": 0.8463,
+      "f1": 0.4322,
+      "umbral": 0.2321
+    },
+    "oportunidad_4h": {
+      "auc": 0.5003,
+      "accuracy": 0.499,
+      "precision": 0.499,
+      "recall": 1.0,
+      "f1": 0.6658,
+      "umbral": 0.4038
+    },
+    "exito_long_4h": {
+      "auc": 0.5749,
+      "accuracy": 0.6663,
+      "precision": 0.3221,
+      "recall": 0.4192,
+      "f1": 0.3643,
+      "umbral": 0.2
+    },
+    "exito_short_4h": {
+      "auc": 0.5211,
+      "accuracy": 0.4537,
+      "precision": 0.2562,
+      "recall": 0.7021,
+      "f1": 0.3754,
+      "umbral": 0.2304
+    }
+  },
+  "BNBUSDT": {
+    "oportunidad_1h": {
+      "auc": 0.5217,
+      "accuracy": 0.5021,
+      "precision": 0.5019,
+      "recall": 0.9992,
+      "f1": 0.6682,
+      "umbral": 0.4265
+    },
+    "exito_long_1h": {
+      "auc": 0.5266,
+      "accuracy": 0.3995,
+      "precision": 0.3045,
+      "recall": 0.8262,
+      "f1": 0.445,
+      "umbral": 0.2
+    },
+    "exito_short_1h": {
+      "auc": 0.4657,
+      "accuracy": 0.2879,
+      "precision": 0.2635,
+      "recall": 0.9032,
+      "f1": 0.408,
+      "umbral": 0.2272
+    },
+    "oportunidad_4h": {
+      "auc": 0.4754,
+      "accuracy": 0.5098,
+      "precision": 0.5089,
+      "recall": 0.9938,
+      "f1": 0.6731,
+      "umbral": 0.3817
+    },
+    "exito_long_4h": {
+      "auc": 0.6165,
+      "accuracy": 0.6629,
+      "precision": 0.3541,
+      "recall": 0.4519,
+      "f1": 0.3971,
+      "umbral": 0.2
+    },
+    "exito_short_4h": {
+      "auc": 0.5805,
+      "accuracy": 0.5898,
+      "precision": 0.247,
+      "recall": 0.5231,
+      "f1": 0.3355,
+      "umbral": 0.2418
+    }
+  },
+  "SOLUSDT": {
+    "oportunidad_1h": {
+      "auc": 0.5,
+      "accuracy": 0.4822,
+      "precision": 0.4822,
+      "recall": 1.0,
+      "f1": 0.6506,
+      "umbral": 0.5019
+    },
+    "exito_long_1h": {
+      "auc": 0.5073,
+      "accuracy": 0.3362,
+      "precision": 0.2582,
+      "recall": 0.8686,
+      "f1": 0.398,
+      "umbral": 0.2
+    },
+    "exito_short_1h": {
+      "auc": 0.5151,
+      "accuracy": 0.3724,
+      "precision": 0.2781,
+      "recall": 0.8152,
+      "f1": 0.4147,
+      "umbral": 0.2276
+    },
+    "oportunidad_4h": {
+      "auc": 0.494,
+      "accuracy": 0.4832,
+      "precision": 0.484,
+      "recall": 0.9905,
+      "f1": 0.6503,
+      "umbral": 0.3844
+    },
+    "exito_long_4h": {
+      "auc": 0.5841,
+      "accuracy": 0.6129,
+      "precision": 0.2301,
+      "recall": 0.4629,
+      "f1": 0.3074,
+      "umbral": 0.2045
+    },
+    "exito_short_4h": {
+      "auc": 0.6134,
+      "accuracy": 0.4167,
+      "precision": 0.2507,
+      "recall": 0.8325,
+      "f1": 0.3854,
+      "umbral": 0.2
+    }
+  }
+}
