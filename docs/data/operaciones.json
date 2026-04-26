@@ -1,1 +1,1 @@
-
+[{"ts": "2026-04-23 17:00:00", "simbolo": "ETH_USDT", "dir": "short", "motivo": "take_profit", "entrada": 2334.1124, "salida": 2312.2055, "pnl": 12.84, "capital": 1012.84}, {"ts": "2026-04-24 06:00:00", "simbolo": "BNB_USDT", "dir": "short", "motivo": "tiempo_maximo", "entrada": 636.9114, "salida": 635.3775, "pnl": -14.23, "capital": 998.61}, {"ts": "2026-04-24 15:00:00", "simbolo": "ETH_USDT", "dir": "short", "motivo": "tiempo_maximo", "entrada": 2331.4337, "salida": 2325.8223, "pnl": -9.41, "capital": 989.2}]
