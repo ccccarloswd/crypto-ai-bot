@@ -1,5 +1,5 @@
 {
-  "capital": 1000.0,
+  "capital": 950.4863328573215,
   "capital_max": 1000.0,
   "posiciones": [
     {
@@ -24,27 +24,6 @@
       "atr_entrada": 188.593354
     },
     {
-      "simbolo": "ETH_USDT",
-      "dir": "short",
-      "calidad": "nivel3",
-      "precio_entrada": 2331.423705,
-      "precio_ref": 2331.423705,
-      "sl": 2349.01711669,
-      "tp": 2289.87949661,
-      "liq": 2437.55655,
-      "margen": 216.0,
-      "lev": 20,
-      "hora_entrada": 493668,
-      "max_horas": 48,
-      "trailing": false,
-      "ts_entrada": "2026-04-26 11:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "BB_sup",
-      "tp_nivel": "ATR_fallback",
-      "atr_entrada": 6.806939
-    },
-    {
       "simbolo": "BNB_USDT",
       "dir": "long",
       "calidad": "nivel2",
@@ -64,17 +43,73 @@
       "sl_nivel": "SMA20",
       "tp_nivel": "ATR_fallback",
       "atr_entrada": 1.613464
+    },
+    {
+      "simbolo": "ETH_USDT",
+      "dir": "short",
+      "calidad": "nivel1",
+      "precio_entrada": 2345.996415,
+      "precio_ref": 2345.996415,
+      "sl": 2362.58518639,
+      "tp": 2322.42868,
+      "liq": 2875.2832500000004,
+      "margen": 91.24668795430287,
+      "lev": 4,
+      "hora_entrada": 493672,
+      "max_horas": 48,
+      "trailing": false,
+      "ts_entrada": "2026-04-26 15:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "ATR_FALLBACK",
+      "sl_nivel": "ATR_fallback",
+      "tp_nivel": "valle_local",
+      "atr_entrada": 7.707593
+    },
+    {
+      "simbolo": "SOL_USDT",
+      "dir": "long",
+      "calidad": "nivel1",
+      "precio_entrada": 86.59327499999999,
+      "precio_ref": 86.59327499999999,
+      "sl": 85.93850508,
+      "tp": 87.65069085,
+      "liq": 67.07625,
+      "margen": 91.24668795430287,
+      "lev": 4,
+      "hora_entrada": 493672,
+      "max_horas": 48,
+      "trailing": false,
+      "ts_entrada": "2026-04-26 15:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "EMA50",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 0.330089
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 0,
+  "n_ops": 1,
   "n_wins": 0,
-  "n_loses": 0,
-  "pnl_total": 0.0,
-  "funding_total": 0.0,
-  "ops_hoy": [],
-  "ultima_ejecucion": "2026-04-26T15:25:59.337196+00:00",
-  "primera_ejecucion": false
+  "n_loses": 1,
+  "pnl_total": -49.51366714267851,
+  "funding_total": 5.183999999999999,
+  "ops_hoy": [
+    {
+      "ts": "2026-04-26 15:00:00",
+      "simbolo": "ETH_USDT",
+      "dir": "short",
+      "motivo": "stop_loss",
+      "entrada": 2331.4237,
+      "salida": 2350.6848,
+      "pnl": -49.51,
+      "capital": 950.49
+    }
+  ],
+  "ultima_ejecucion": "2026-04-26T16:10:46.951766+00:00",
+  "primera_ejecucion": false,
+  "historial_pnl": [
+    0.0
+  ]
 }
