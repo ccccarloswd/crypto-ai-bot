@@ -1,0 +1,70 @@
+name: Paper Trading v14
+
+on:
+  schedule:
+    - cron: '35 * * * *'  # cada hora en el minuto 35
+  workflow_dispatch:
+
+jobs:
+  paper-trading-v14:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # FIX: fetch completo para evitar conflictos entre los dos push
+          fetch-depth: 0
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Instalar dependencias
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ejecutar bot v14
+        env:
+          TELEGRAM_TOKEN_V14:   ${{ secrets.TELEGRAM_TOKEN_V14 }}
+          TELEGRAM_CHAT_ID_V14: ${{ secrets.TELEGRAM_CHAT_ID_V14 }}
+        run: python paper_trading_v14.py
+
+      # FIX: Preparar datos ANTES del primer push, así todo va en un solo commit
+      - name: Preparar datos para el dashboard
+        if: always()   # FIX: se ejecuta aunque el bot haya fallado
+        run: |
+          mkdir -p docs/data
+          # Copiar JSONs si existen (el bot puede no haberlos generado si falló)
+          [ -f paper_trading/v14/estado.json ]   && cp paper_trading/v14/estado.json   docs/data/estado.json   || echo "⚠️  estado.json no encontrado"
+          [ -f paper_trading/v14/metricas.json ] && cp paper_trading/v14/metricas.json docs/data/metricas.json || echo "⚠️  metricas.json no encontrado"
+          python scripts/csv_to_json.py
+
+      # FIX: Un único commit y push con todo (estado + dashboard)
+      - name: Guardar estado y publicar dashboard
+        if: always()   # FIX: siempre intentamos guardar lo que haya
+        run: |
+          git config user.name  "CMN Trading Bot"
+          git config user.email "bot@cmn-trading.com"
+
+          # Añadir todo de una vez
+          git add paper_trading/v14/
+          git add docs/
+
+          # Solo commitear si hay cambios reales
+          if git diff --staged --quiet; then
+            echo "✅ Sin cambios que guardar"
+          else
+            git commit -m "📊 Bot v14 update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # FIX: pull --rebase antes de push para evitar conflictos con v13
+            git pull --rebase origin main
+            git push
+          fi
