@@ -1,7 +1,52 @@
 {
   "capital": 1000.0,
   "capital_max": 1000.0,
-  "posiciones": [],
+  "posiciones": [
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "calidad": "nivel3",
+      "precio_entrada": 77760.90010000001,
+      "precio_ref": 77760.90010000001,
+      "sl": 78477.0992,
+      "tp": 76038.82208,
+      "liq": 81300.791,
+      "margen": 216.0,
+      "lev": 20,
+      "hora_entrada": 493688,
+      "max_horas": 34,
+      "trailing": false,
+      "ts_entrada": "2026-04-27 07:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "pico_local",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 433.005943,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.22) \u2192 sl_mult \u00d71.10 (1.76)"
+    },
+    {
+      "simbolo": "ETH_USDT",
+      "dir": "short",
+      "calidad": "nivel3",
+      "precio_entrada": 2318.190325,
+      "precio_ref": 2318.190325,
+      "sl": 2344.1308,
+      "tp": 2254.91992,
+      "liq": 2423.72075,
+      "margen": 216.0,
+      "lev": 20,
+      "hora_entrada": 493688,
+      "max_horas": 26,
+      "trailing": false,
+      "ts_entrada": "2026-04-27 07:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "SMA50",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 16.588732,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.32) \u2192 sl_mult \u00d71.10 (1.76)"
+    }
+  ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
@@ -11,6 +56,6 @@
   "pnl_total": 0.0,
   "funding_total": 0.0,
   "ops_hoy": [],
-  "ultima_ejecucion": null,
-  "primera_ejecucion": true
+  "ultima_ejecucion": "2026-04-27T08:59:39.759839+00:00",
+  "primera_ejecucion": false
 }
