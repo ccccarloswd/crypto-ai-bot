@@ -36,7 +36,7 @@ jobs:
         env:
           TELEGRAM_TOKEN_V14:   ${{ secrets.TELEGRAM_TOKEN_V14 }}
           TELEGRAM_CHAT_ID_V14: ${{ secrets.TELEGRAM_CHAT_ID_V14 }}
-        run: python paper_trading_v14.py
+        run: python run.py
 
       # FIX: Preparar datos ANTES del primer push, así todo va en un solo commit
       - name: Preparar datos para el dashboard
