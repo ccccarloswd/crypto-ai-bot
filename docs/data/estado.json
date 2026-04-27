@@ -29,7 +29,7 @@
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 2320.47918,
-      "precio_ref": 2320.47918,
+      "precio_ref": 2320.32,
       "sl": 2344.30656,
       "tp": 2271.773568,
       "liq": 2495.763,
@@ -51,7 +51,7 @@
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 627.8759050000001,
-      "precio_ref": 627.8759050000001,
+      "precio_ref": 627.4,
       "sl": 632.82276,
       "tp": 617.997928,
       "liq": 675.30425,
@@ -78,6 +78,6 @@
   "pnl_total": 0.0,
   "funding_total": 0.0,
   "ops_hoy": [],
-  "ultima_ejecucion": "2026-04-27T10:18:13.421660+00:00",
+  "ultima_ejecucion": "2026-04-27T12:11:36.497714+00:00",
   "primera_ejecucion": false
 }
