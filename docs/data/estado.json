@@ -7,7 +7,7 @@
       "dir": "long",
       "calidad": "nivel2",
       "precio_entrada": 2288.4036300000002,
-      "precio_ref": 2296.73,
+      "precio_ref": 2301.42,
       "sl": 2266.03096,
       "tp": 2331.98096,
       "liq": 2115.7155000000002,
@@ -29,7 +29,7 @@
       "dir": "long",
       "calidad": "nivel2",
       "precio_entrada": 83.54175,
-      "precio_ref": 83.8,
+      "precio_ref": 83.91,
       "sl": 82.626,
       "tp": 85.186,
       "liq": 77.2375,
@@ -45,6 +45,28 @@
       "tp_nivel": "FIB_500",
       "atr_entrada": 0.484962,
       "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "BNB_USDT",
+      "dir": "long",
+      "calidad": "nivel3",
+      "precio_entrada": 624.322005,
+      "precio_ref": 624.322005,
+      "sl": 619.58396,
+      "tp": 637.28396,
+      "liq": 595.92955,
+      "margen": 218.15498244287713,
+      "lev": 20,
+      "hora_entrada": 493724,
+      "max_horas": 120,
+      "trailing": false,
+      "ts_entrada": "2026-04-28 19:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "valle_local",
+      "tp_nivel": "MAX50",
+      "atr_entrada": 1.903201,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.18) \u2192 sl_mult \u00d71.10 (1.76)"
     }
   ],
   "bot_activo": true,
@@ -107,7 +129,7 @@
       "capital": 1009.98
     }
   ],
-  "ultima_ejecucion": "2026-04-28T19:11:42.116734+00:00",
+  "ultima_ejecucion": "2026-04-28T20:10:11.220583+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
