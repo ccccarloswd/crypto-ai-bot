@@ -7,15 +7,15 @@
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 626.42663,
-      "precio_ref": 623.32,
-      "sl": 631.44696,
+      "precio_ref": 622.8,
+      "sl": 625.3748911308147,
       "tp": 616.384688,
       "liq": 673.7455,
       "margen": 174.03788189808955,
       "lev": 12,
       "hora_entrada": 493705,
       "max_horas": 85,
-      "trailing": false,
+      "trailing": true,
       "ts_entrada": "2026-04-28 00:00:00",
       "adaptive_factor": 1.0,
       "modo_sltp": "NIVEL",
@@ -109,7 +109,7 @@
       "capital": 1035.94
     }
   ],
-  "ultima_ejecucion": "2026-04-28T07:56:25.389290+00:00",
+  "ultima_ejecucion": "2026-04-28T10:35:39.109047+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
