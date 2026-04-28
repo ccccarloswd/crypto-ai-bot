@@ -1,38 +1,38 @@
 {
-  "capital": 1031.0643337686254,
+  "capital": 1035.939773202914,
   "capital_max": 1000.0,
   "posiciones": [
     {
-      "simbolo": "BTC_USDT",
+      "simbolo": "BNB_USDT",
       "dir": "short",
       "calidad": "nivel2",
-      "precio_entrada": 77785.8876,
-      "precio_ref": 76609.0,
-      "sl": 77123.59417804134,
-      "tp": 76389.52176,
-      "liq": 83661.66,
-      "margen": 168.0,
+      "precio_entrada": 626.42663,
+      "precio_ref": 626.42663,
+      "sl": 631.44696,
+      "tp": 616.384688,
+      "liq": 673.7455,
+      "margen": 174.03788189808955,
       "lev": 12,
-      "hora_entrada": 493690,
-      "max_horas": 67,
-      "trailing": true,
-      "ts_entrada": "2026-04-27 09:00:00",
+      "hora_entrada": 493705,
+      "max_horas": 85,
+      "trailing": false,
+      "ts_entrada": "2026-04-28 00:00:00",
       "adaptive_factor": 1.0,
       "modo_sltp": "NIVEL",
       "sl_nivel": "pico_local",
       "tp_nivel": "ATR_fallback",
-      "atr_entrada": 405.415328,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.22) \u2192 sl_mult \u00d71.10 (1.98)"
+      "atr_entrada": 2.33698,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.33) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 2,
-  "n_wins": 2,
+  "n_ops": 3,
+  "n_wins": 3,
   "n_loses": 0,
-  "pnl_total": 31.064333768625396,
-  "funding_total": 5.039999999999999,
+  "pnl_total": 35.93977320291402,
+  "funding_total": 5.846399999999999,
   "ops_hoy": [
     {
       "ts": "2026-04-27 16:00:00",
@@ -53,11 +53,22 @@
       "salida": 625.3625,
       "pnl": 3.23,
       "capital": 1031.06
+    },
+    {
+      "ts": "2026-04-28 00:00:00",
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "motivo": "trailing_stop",
+      "entrada": 77785.8876,
+      "salida": 77411.0862,
+      "pnl": 4.88,
+      "capital": 1035.94
     }
   ],
-  "ultima_ejecucion": "2026-04-27T23:32:32.391894+00:00",
+  "ultima_ejecucion": "2026-04-28T01:19:55.738515+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
+    1.0,
     1.0,
     1.0
   ]
