@@ -1,59 +1,14 @@
 {
-  "capital": 1037.748635011466,
+  "capital": 1098.020203685341,
   "capital_max": 1000.0,
-  "posiciones": [
-    {
-      "simbolo": "BNB_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 621.559065,
-      "precio_ref": 617.34,
-      "sl": 620.1615486518411,
-      "tp": 612.569544,
-      "liq": 668.5102499999999,
-      "margen": 174.34177068192628,
-      "lev": 12,
-      "hora_entrada": 493742,
-      "max_horas": 82,
-      "trailing": true,
-      "ts_entrada": "2026-04-29 13:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "pico_local",
-      "tp_nivel": "ATR_fallback",
-      "atr_entrada": 2.154498,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.33) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
-    {
-      "simbolo": "SOL_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 83.768095,
-      "precio_ref": 83.09,
-      "sl": 84.56504,
-      "tp": 82.148912,
-      "liq": 90.09575,
-      "margen": 174.34177068192628,
-      "lev": 12,
-      "hora_entrada": 493742,
-      "max_horas": 62,
-      "trailing": false,
-      "ts_entrada": "2026-04-29 13:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "SMA50",
-      "tp_nivel": "ATR_fallback",
-      "atr_entrada": 0.508592,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.24) \u2192 sl_mult \u00d71.10 (1.98)"
-    }
-  ],
+  "posiciones": [],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 9,
-  "n_wins": 6,
+  "n_ops": 11,
+  "n_wins": 8,
   "n_loses": 3,
-  "pnl_total": 37.74863501146585,
+  "pnl_total": 98.02020368534077,
   "funding_total": 13.395204471952344,
   "ops_hoy": [
     {
@@ -145,9 +100,29 @@
       "salida": 76426.8363,
       "pnl": -23.75,
       "capital": 1037.75
+    },
+    {
+      "ts": "2026-04-29 17:00:00",
+      "simbolo": "BNB_USDT",
+      "dir": "short",
+      "motivo": "take_profit",
+      "entrada": 621.5591,
+      "salida": 612.8758,
+      "pnl": 25.04,
+      "capital": 1062.79
+    },
+    {
+      "ts": "2026-04-29 17:00:00",
+      "simbolo": "SOL_USDT",
+      "dir": "short",
+      "motivo": "take_profit",
+      "entrada": 83.7681,
+      "salida": 82.19,
+      "pnl": 35.23,
+      "capital": 1098.02
     }
   ],
-  "ultima_ejecucion": "2026-04-29T17:10:37.975019+00:00",
+  "ultima_ejecucion": "2026-04-29T18:59:46.984549+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
@@ -158,6 +133,8 @@
     1.0,
     0.0,
     1.0,
-    0.0
+    0.0,
+    1.0,
+    1.0
   ]
 }
