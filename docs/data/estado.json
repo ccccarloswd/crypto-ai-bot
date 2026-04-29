@@ -1,37 +1,59 @@
 {
-  "capital": 1061.4967424861713,
+  "capital": 1037.748635011466,
   "capital_max": 1000.0,
   "posiciones": [
     {
-      "simbolo": "BTC_USDT",
-      "dir": "long",
+      "simbolo": "BNB_USDT",
+      "dir": "short",
       "calidad": "nivel2",
-      "precio_entrada": 77146.3539,
-      "precio_ref": 77649.9,
-      "sl": 76465.0688,
-      "tp": 78638.0688,
-      "liq": 71324.71500000001,
-      "margen": 174.7213530614095,
+      "precio_entrada": 621.559065,
+      "precio_ref": 621.559065,
+      "sl": 626.09748,
+      "tp": 612.569544,
+      "liq": 668.5102499999999,
+      "margen": 174.34177068192628,
       "lev": 12,
-      "hora_entrada": 493735,
-      "max_horas": 110,
+      "hora_entrada": 493742,
+      "max_horas": 82,
       "trailing": false,
-      "ts_entrada": "2026-04-29 06:00:00",
+      "ts_entrada": "2026-04-29 13:00:00",
       "adaptive_factor": 1.0,
       "modo_sltp": "NIVEL",
-      "sl_nivel": "valle_local",
-      "tp_nivel": "MAX50",
-      "atr_entrada": 333.349434,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
+      "sl_nivel": "pico_local",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 2.154498,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.33) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "SOL_USDT",
+      "dir": "short",
+      "calidad": "nivel2",
+      "precio_entrada": 83.768095,
+      "precio_ref": 83.768095,
+      "sl": 84.56504,
+      "tp": 82.148912,
+      "liq": 90.09575,
+      "margen": 174.34177068192628,
+      "lev": 12,
+      "hora_entrada": 493742,
+      "max_horas": 62,
+      "trailing": false,
+      "ts_entrada": "2026-04-29 13:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "SMA50",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 0.508592,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.24) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 8,
+  "n_ops": 9,
   "n_wins": 6,
-  "n_loses": 2,
-  "pnl_total": 61.496742486171286,
+  "n_loses": 3,
+  "pnl_total": 37.74863501146585,
   "funding_total": 13.395204471952344,
   "ops_hoy": [
     {
@@ -113,9 +135,19 @@
       "salida": 84.6586,
       "pnl": 21.49,
       "capital": 1061.5
+    },
+    {
+      "ts": "2026-04-29 13:00:00",
+      "simbolo": "BTC_USDT",
+      "dir": "long",
+      "motivo": "stop_loss",
+      "entrada": 77146.3539,
+      "salida": 76426.8363,
+      "pnl": -23.75,
+      "capital": 1037.75
     }
   ],
-  "ultima_ejecucion": "2026-04-29T12:07:42.635427+00:00",
+  "ultima_ejecucion": "2026-04-29T14:42:10.784497+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
@@ -125,6 +157,7 @@
     1.0,
     1.0,
     0.0,
-    1.0
+    1.0,
+    0.0
   ]
 }
