@@ -29,8 +29,8 @@
       "dir": "long",
       "calidad": "nivel2",
       "precio_entrada": 76405.48365,
-      "precio_ref": 77243.4,
-      "sl": 76867.2924680332,
+      "precio_ref": 77287.2,
+      "sl": 76916.10872031073,
       "tp": 78134.93224,
       "liq": 70639.7525,
       "margen": 184.46739421913728,
@@ -73,8 +73,8 @@
       "dir": "long",
       "calidad": "nivel2",
       "precio_entrada": 2256.8278499999997,
-      "precio_ref": 2281.47,
-      "sl": 2267.181811450221,
+      "precio_ref": 2281.85,
+      "sl": 2267.8555392035123,
       "tp": 2303.626,
       "liq": 2086.5225,
       "margen": 184.46739421913728,
@@ -211,7 +211,7 @@
       "capital": 1098.02
     }
   ],
-  "ultima_ejecucion": "2026-05-01T10:11:02.895843+00:00",
+  "ultima_ejecucion": "2026-05-01T11:42:36.999423+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
