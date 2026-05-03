@@ -1,5 +1,5 @@
 {
-  "capital": 1167.7754040804825,
+  "capital": 1165.2188134357486,
   "capital_max": 1000.0,
   "posiciones": [
     {
@@ -72,33 +72,33 @@
       "simbolo": "SOL_USDT",
       "dir": "long",
       "calidad": "nivel2",
-      "precio_entrada": 83.87191499999999,
-      "precio_ref": 84.36,
-      "sl": 84.02413864167767,
-      "tp": 85.987408,
-      "liq": 77.54275,
-      "margen": 196.1862678855211,
+      "precio_entrada": 84.18207,
+      "precio_ref": 84.18207,
+      "sl": 83.27768,
+      "tp": 86.037104,
+      "liq": 77.82950000000001,
+      "margen": 195.75676065720577,
       "lev": 12,
-      "hora_entrada": 493825,
+      "hora_entrada": 493840,
       "max_horas": 120,
-      "trailing": true,
-      "ts_entrada": "2026-05-03 00:00:00",
+      "trailing": false,
+      "ts_entrada": "2026-05-03 15:00:00",
       "adaptive_factor": 1.0,
       "modo_sltp": "NIVEL",
-      "sl_nivel": "MIN20",
+      "sl_nivel": "SMA50",
       "tp_nivel": "ATR_fallback",
-      "atr_entrada": 0.32614,
+      "atr_entrada": 0.282036,
       "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 16,
+  "n_ops": 17,
   "n_wins": 11,
-  "n_loses": 5,
-  "pnl_total": 167.77540408048262,
-  "funding_total": 18.787826332756293,
+  "n_loses": 6,
+  "pnl_total": 165.21881343574867,
+  "funding_total": 19.729520418606793,
   "ops_hoy": [
     {
       "ts": "2026-04-27 16:00:00",
@@ -259,9 +259,19 @@
       "salida": 84.1357,
       "pnl": -1.56,
       "capital": 1167.78
+    },
+    {
+      "ts": "2026-05-03 15:00:00",
+      "simbolo": "SOL_USDT",
+      "dir": "long",
+      "motivo": "trailing_stop",
+      "entrada": 83.8719,
+      "salida": 83.9821,
+      "pnl": -2.56,
+      "capital": 1165.22
     }
   ],
-  "ultima_ejecucion": "2026-05-03T15:27:02.597910+00:00",
+  "ultima_ejecucion": "2026-05-03T16:27:27.379090+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
@@ -278,6 +288,7 @@
     1.0,
     1.0,
     1.0,
+    0.0,
     0.0,
     0.0
   ]
