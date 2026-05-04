@@ -1,43 +1,21 @@
 {
-  "capital": 1137.3990897911603,
+  "capital": 1091.4235209674548,
   "capital_max": 1000.0,
   "posiciones": [
-    {
-      "simbolo": "BNB_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 617.341175,
-      "precio_ref": 614.38,
-      "sl": 625.65230261,
-      "tp": 600.04493426,
-      "liq": 663.97375,
-      "margen": 184.46739421913728,
-      "lev": 12,
-      "hora_entrada": 493750,
-      "max_horas": 119,
-      "trailing": false,
-      "ts_entrada": "2026-04-29 21:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "EMA50",
-      "tp_nivel": "ATR_fallback",
-      "atr_entrada": 2.827643,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.33) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
     {
       "simbolo": "SOL_USDT",
       "dir": "long",
       "calidad": "nivel2",
       "precio_entrada": 84.18207,
-      "precio_ref": 84.68,
-      "sl": 83.27768,
+      "precio_ref": 85.74,
+      "sl": 85.14229111522643,
       "tp": 86.037104,
       "liq": 77.82950000000001,
       "margen": 195.75676065720577,
       "lev": 12,
       "hora_entrada": 493840,
       "max_horas": 120,
-      "trailing": false,
+      "trailing": true,
       "ts_entrada": "2026-05-03 15:00:00",
       "adaptive_factor": 1.0,
       "modo_sltp": "NIVEL",
@@ -50,11 +28,11 @@
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 19,
+  "n_ops": 20,
   "n_wins": 12,
-  "n_loses": 7,
-  "pnl_total": 137.3990897911602,
-  "funding_total": 24.509121788941755,
+  "n_loses": 8,
+  "pnl_total": 91.42352096745464,
+  "funding_total": 35.134443695964066,
   "ops_hoy": [
     {
       "ts": "2026-04-27 16:00:00",
@@ -245,9 +223,19 @@
       "salida": 2320.2517,
       "pnl": 5.91,
       "capital": 1137.4
+    },
+    {
+      "ts": "2026-05-04 04:00:00",
+      "simbolo": "BNB_USDT",
+      "dir": "short",
+      "motivo": "stop_loss",
+      "entrada": 617.3412,
+      "salida": 625.9651,
+      "pnl": -45.98,
+      "capital": 1091.42
     }
   ],
-  "ultima_ejecucion": "2026-05-04T01:19:08.194118+00:00",
+  "ultima_ejecucion": "2026-05-04T05:05:02.299277+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
@@ -268,6 +256,7 @@
     0.0,
     0.0,
     0.0,
-    1.0
+    1.0,
+    0.0
   ]
 }
