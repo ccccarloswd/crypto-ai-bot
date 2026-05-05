@@ -1,29 +1,7 @@
 {
-  "capital": 1080.956465011741,
+  "capital": 1045.9584998420623,
   "capital_max": 1000.0,
   "posiciones": [
-    {
-      "simbolo": "SOL_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 84.71762000000001,
-      "precio_ref": 84.27,
-      "sl": 85.72808,
-      "tp": 82.630224,
-      "liq": 91.117,
-      "margen": 186.55608774789007,
-      "lev": 12,
-      "hora_entrada": 493862,
-      "max_horas": 74,
-      "trailing": false,
-      "ts_entrada": "2026-05-04 13:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "pico_local",
-      "tp_nivel": "ATR_fallback",
-      "atr_entrada": 0.550604,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.24) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
     {
       "simbolo": "BNB_USDT",
       "dir": "long",
@@ -50,11 +28,11 @@
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 22,
+  "n_ops": 23,
   "n_wins": 13,
-  "n_loses": 9,
-  "pnl_total": 80.95646501174103,
-  "funding_total": 37.01370859827324,
+  "n_loses": 10,
+  "pnl_total": 45.958499842062224,
+  "funding_total": 39.70011626184286,
   "ops_hoy": [
     {
       "ts": "2026-04-27 16:00:00",
@@ -275,12 +253,21 @@
       "salida": 81080.0117,
       "pnl": -29.5,
       "capital": 1080.96
+    },
+    {
+      "ts": "2026-05-05 17:00:00",
+      "simbolo": "SOL_USDT",
+      "dir": "short",
+      "motivo": "stop_loss",
+      "entrada": 84.7176,
+      "salida": 85.7709,
+      "pnl": -35.0,
+      "capital": 1045.96
     }
   ],
-  "ultima_ejecucion": "2026-05-05T17:09:45.960062+00:00",
+  "ultima_ejecucion": "2026-05-05T18:57:44.311697+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
-    1.0,
     0.0,
     1.0,
     1.0,
@@ -299,6 +286,7 @@
     1.0,
     0.0,
     1.0,
+    0.0,
     0.0
   ]
 }
