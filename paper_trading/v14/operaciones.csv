@@ -29,3 +29,4 @@ ts,simbolo,dir,motivo,entrada,salida,pnl,capital
 2026-05-03 21:00:00,ETH_USDT,long,trailing_stop,2307.9934,2320.2517,5.91,1137.4
 2026-05-04 04:00:00,BNB_USDT,short,stop_loss,617.3412,625.9651,-45.98,1091.42
 2026-05-04 07:00:00,SOL_USDT,long,trailing_stop,84.1821,85.0997,19.03,1110.45
+2026-05-05 03:00:00,BTC_USDT,short,stop_loss,80183.888,81080.0117,-29.5,1080.96
