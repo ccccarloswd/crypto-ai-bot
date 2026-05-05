@@ -1,38 +1,15 @@
 {
-  "capital": 1045.9584998420623,
+  "capital": 1044.9385241839989,
   "capital_max": 1000.0,
-  "posiciones": [
-    {
-      "simbolo": "BNB_USDT",
-      "dir": "long",
-      "calidad": "nivel2",
-      "precio_entrada": 628.644165,
-      "precio_ref": 633.27,
-      "sl": 630.1737617703776,
-      "tp": 648.64194844,
-      "liq": 581.2052500000001,
-      "margen": 181.60068612197253,
-      "lev": 12,
-      "hora_entrada": 493883,
-      "max_horas": 120,
-      "trailing": true,
-      "ts_entrada": "2026-05-05 10:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "EMA50",
-      "tp_nivel": "ATR_fallback",
-      "atr_entrada": 2.490643,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.18) \u2192 sl_mult \u00d71.10 (1.98)"
-    }
-  ],
+  "posiciones": [],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 23,
+  "n_ops": 24,
   "n_wins": 13,
-  "n_loses": 10,
-  "pnl_total": 45.958499842062224,
-  "funding_total": 39.70011626184286,
+  "n_loses": 11,
+  "pnl_total": 44.93852418399884,
+  "funding_total": 40.571799555228324,
   "ops_hoy": [
     {
       "ts": "2026-04-27 16:00:00",
@@ -263,12 +240,21 @@
       "salida": 85.7709,
       "pnl": -35.0,
       "capital": 1045.96
+    },
+    {
+      "ts": "2026-05-05 22:00:00",
+      "simbolo": "BNB_USDT",
+      "dir": "long",
+      "motivo": "trailing_stop",
+      "entrada": 628.6442,
+      "salida": 629.8587,
+      "pnl": -1.02,
+      "capital": 1044.94
     }
   ],
-  "ultima_ejecucion": "2026-05-05T22:34:13.953816+00:00",
+  "ultima_ejecucion": "2026-05-05T23:29:45.582911+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
-    0.0,
     1.0,
     1.0,
     0.0,
@@ -286,6 +272,7 @@
     1.0,
     0.0,
     1.0,
+    0.0,
     0.0,
     0.0
   ]
