@@ -1,60 +1,15 @@
 {
-  "capital": 1044.9385241839989,
+  "capital": 982.9829512761742,
   "capital_max": 1000.0,
-  "posiciones": [
-    {
-      "simbolo": "BTC_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 81140.90925000001,
-      "precio_ref": 81140.90925000001,
-      "sl": 81952.752,
-      "tp": 79146.8771279,
-      "liq": 87270.1125,
-      "margen": 175.5496720629118,
-      "lev": 12,
-      "hora_entrada": 493897,
-      "max_horas": 91,
-      "trailing": false,
-      "ts_entrada": "2026-05-06 00:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "pico_local",
-      "tp_nivel": "EMA200",
-      "atr_entrada": 427.547306,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.22) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
-    {
-      "simbolo": "ETH_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 2364.8669750000004,
-      "precio_ref": 2364.8669750000004,
-      "sl": 2397.9584,
-      "tp": 2295.85152,
-      "liq": 2543.5037500000003,
-      "margen": 175.5496720629118,
-      "lev": 12,
-      "hora_entrada": 493901,
-      "max_horas": 89,
-      "trailing": false,
-      "ts_entrada": "2026-05-06 04:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "pico_local",
-      "tp_nivel": "ATR_fallback",
-      "atr_entrada": 15.09519,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.32) \u2192 sl_mult \u00d71.10 (1.98)"
-    }
-  ],
+  "posiciones": [],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 24,
+  "n_ops": 26,
   "n_wins": 13,
-  "n_loses": 11,
-  "pnl_total": 44.93852418399884,
-  "funding_total": 40.571799555228324,
+  "n_loses": 13,
+  "pnl_total": -17.017048723825877,
+  "funding_total": 41.4144379811303,
   "ops_hoy": [
     {
       "ts": "2026-04-27 16:00:00",
@@ -295,13 +250,31 @@
       "salida": 629.8587,
       "pnl": -1.02,
       "capital": 1044.94
+    },
+    {
+      "ts": "2026-05-06 09:00:00",
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "motivo": "stop_loss",
+      "entrada": 81140.9093,
+      "salida": 81993.7284,
+      "pnl": -27.2,
+      "capital": 1017.74
+    },
+    {
+      "ts": "2026-05-06 09:00:00",
+      "simbolo": "ETH_USDT",
+      "dir": "short",
+      "motivo": "stop_loss",
+      "entrada": 2364.867,
+      "salida": 2399.1574,
+      "pnl": -34.76,
+      "capital": 982.98
     }
   ],
-  "ultima_ejecucion": "2026-05-06T07:56:58.724064+00:00",
+  "ultima_ejecucion": "2026-05-06T10:36:35.949231+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
-    1.0,
-    1.0,
     0.0,
     1.0,
     0.0,
@@ -317,8 +290,12 @@
     1.0,
     0.0,
     1.0,
+    0.0,
+    0.0,
     0.0,
     0.0,
     0.0
-  ]
+  ],
+  "adaptive_factor": 0.5,
+  "adaptive_trades_left": 14
 }
