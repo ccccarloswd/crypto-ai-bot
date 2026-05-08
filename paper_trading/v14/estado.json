@@ -45,6 +45,28 @@
       "tp_nivel": "MAX50",
       "atr_entrada": 362.382323,
       "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "ETH_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 2282.7608099999998,
+      "precio_ref": 2282.7608099999998,
+      "sl": 2248.75704,
+      "tp": 2342.36408,
+      "liq": 2110.4985,
+      "margen": 84.39051239137115,
+      "lev": 12,
+      "hora_entrada": 493959,
+      "max_horas": 110,
+      "trailing": false,
+      "ts_entrada": "2026-05-08 14:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "valle_local",
+      "tp_nivel": "FIB_382",
+      "atr_entrada": 13.232307,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.14) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
@@ -357,7 +379,7 @@
       "capital": 1004.65
     }
   ],
-  "ultima_ejecucion": "2026-05-08T12:57:42.909791+00:00",
+  "ultima_ejecucion": "2026-05-08T15:11:05.957503+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
