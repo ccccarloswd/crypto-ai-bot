@@ -7,7 +7,7 @@
       "dir": "long",
       "calidad": "nivel2",
       "precio_entrada": 79906.5333,
-      "precio_ref": 80219.5,
+      "precio_ref": 80236.5,
       "sl": 78875.54300238,
       "tp": 82471.4336,
       "liq": 73876.60500000001,
@@ -45,6 +45,28 @@
       "tp_nivel": "FIB_382",
       "atr_entrada": 13.232307,
       "ia_ajuste": "IA 4h d\u00e9bil (0.14) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "BNB_USDT",
+      "dir": "short",
+      "calidad": "nivel2",
+      "precio_entrada": 650.2347199999999,
+      "precio_ref": 650.2347199999999,
+      "sl": 658.32448,
+      "tp": 636.08224,
+      "liq": 699.3519999999999,
+      "margen": 82.61631530142499,
+      "lev": 12,
+      "hora_entrada": 493966,
+      "max_horas": 88,
+      "trailing": false,
+      "ts_entrada": "2026-05-08 21:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "MAX50",
+      "tp_nivel": "MIN50",
+      "atr_entrada": 3.1345,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.33) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
@@ -367,7 +389,7 @@
       "capital": 983.53
     }
   ],
-  "ultima_ejecucion": "2026-05-08T20:38:25.706936+00:00",
+  "ultima_ejecucion": "2026-05-08T22:34:07.861336+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
