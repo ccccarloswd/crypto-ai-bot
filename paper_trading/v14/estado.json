@@ -1,29 +1,7 @@
 {
-  "capital": 990.2557503554724,
+  "capital": 987.911308695131,
   "capital_max": 1000.0,
   "posiciones": [
-    {
-      "simbolo": "BNB_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 650.2347199999999,
-      "precio_ref": 647.65,
-      "sl": 658.32448,
-      "tp": 636.08224,
-      "liq": 699.3519999999999,
-      "margen": 82.61631530142499,
-      "lev": 12,
-      "hora_entrada": 493966,
-      "max_horas": 88,
-      "trailing": false,
-      "ts_entrada": "2026-05-08 21:00:00",
-      "adaptive_factor": 0.5,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "MAX50",
-      "tp_nivel": "MIN50",
-      "atr_entrada": 3.1345,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.33) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
     {
       "simbolo": "BTC_USDT",
       "dir": "short",
@@ -73,7 +51,7 @@
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 93.11342,
-      "precio_ref": 93.11342,
+      "precio_ref": 92.97,
       "sl": 94.40528,
       "tp": 90.4962,
       "liq": 100.14699999999999,
@@ -94,11 +72,11 @@
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 33,
+  "n_ops": 34,
   "n_wins": 19,
-  "n_loses": 14,
-  "pnl_total": -9.744249644527697,
-  "funding_total": 47.830535836219454,
+  "n_loses": 15,
+  "pnl_total": -12.088691304869098,
+  "funding_total": 49.02021077655997,
   "ops_hoy": [
     {
       "ts": "2026-04-27 16:00:00",
@@ -429,12 +407,21 @@
       "salida": 2304.8001,
       "pnl": 6.54,
       "capital": 990.26
+    },
+    {
+      "ts": "2026-05-10 00:00:00",
+      "simbolo": "BNB_USDT",
+      "dir": "short",
+      "motivo": "trailing_stop",
+      "entrada": 650.2347,
+      "salida": 649.6916,
+      "pnl": -2.34,
+      "capital": 987.91
     }
   ],
-  "ultima_ejecucion": "2026-05-09T23:29:06.868885+00:00",
+  "ultima_ejecucion": "2026-05-10T01:24:35.487778+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
-    1.0,
     0.0,
     0.0,
     0.0,
@@ -453,8 +440,9 @@
     1.0,
     0.0,
     1.0,
-    1.0
+    1.0,
+    0.0
   ],
   "adaptive_factor": 0.5,
-  "adaptive_trades_left": 7
+  "adaptive_trades_left": 6
 }
