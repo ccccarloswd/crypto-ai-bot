@@ -23,6 +23,28 @@
       "tp_nivel": "ATR_fallback",
       "atr_entrada": 4.268213,
       "ia_ajuste": "IA 4h d\u00e9bil (0.33) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 81735.84749999999,
+      "precio_ref": 81735.84749999999,
+      "sl": 80485.49473026,
+      "tp": 84355.91159344,
+      "liq": 75567.875,
+      "margen": 155.41733931721177,
+      "lev": 12,
+      "hora_entrada": 494039,
+      "max_horas": 120,
+      "trailing": false,
+      "ts_entrada": "2026-05-11 22:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "EMA50",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 381.873703,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
@@ -435,7 +457,7 @@
       "capital": 925.1
     }
   ],
-  "ultima_ejecucion": "2026-05-11T21:53:33.576772+00:00",
+  "ultima_ejecucion": "2026-05-11T23:35:15.493132+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
