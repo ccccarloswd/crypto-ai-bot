@@ -51,7 +51,7 @@
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 95.642155,
-      "precio_ref": 95.642155,
+      "precio_ref": 94.92,
       "sl": 96.93552,
       "tp": 93.23276,
       "liq": 102.86675,
@@ -479,7 +479,7 @@
       "capital": 925.1
     }
   ],
-  "ultima_ejecucion": "2026-05-12T08:56:07.117527+00:00",
+  "ultima_ejecucion": "2026-05-12T11:03:08.849155+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
