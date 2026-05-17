@@ -1,7 +1,30 @@
 {
   "capital": 868.382529541868,
   "capital_max": 1000.0,
-  "posiciones": [],
+  "posiciones": [
+    {
+      "simbolo": "BNB_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 655.1073899999999,
+      "precio_ref": 655.1073899999999,
+      "sl": 645.99176,
+      "tp": 671.97246,
+      "liq": 605.6715,
+      "margen": 72.94413248151692,
+      "lev": 12,
+      "hora_entrada": 494168,
+      "max_horas": 120,
+      "trailing": false,
+      "ts_entrada": "2026-05-17 07:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "valle_local",
+      "tp_nivel": "FIB_382",
+      "atr_entrada": 2.65448,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.18) \u2192 sl_mult \u00d71.10 (1.98)"
+    }
+  ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
@@ -442,7 +465,7 @@
       "capital": 868.38
     }
   ],
-  "ultima_ejecucion": "2026-05-17T05:33:37.752189+00:00",
+  "ultima_ejecucion": "2026-05-17T08:04:18.497840+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,

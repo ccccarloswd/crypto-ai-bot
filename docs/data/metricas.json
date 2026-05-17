@@ -7,8 +7,8 @@
   "win_rate_pct": 48.8,
   "pnl_total": -131.62,
   "funding_total": 59.27,
-  "posiciones_abiertas": 0,
+  "posiciones_abiertas": 1,
   "adaptive_factor": 0.5,
   "bot_activo": true,
-  "ultima_actualizacion": "2026-05-17T05:33:37.753151+00:00"
+  "ultima_actualizacion": "2026-05-17T08:04:18.498708+00:00"
 }
