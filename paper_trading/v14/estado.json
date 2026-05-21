@@ -1,38 +1,38 @@
 {
-  "capital": 821.3853573549878,
+  "capital": 822.587799933193,
   "capital_max": 1000.0,
   "posiciones": [
     {
       "simbolo": "BNB_USDT",
-      "dir": "long",
+      "dir": "short",
       "calidad": "nivel2",
-      "precio_entrada": 644.131905,
-      "precio_ref": 653.74,
-      "sl": 648.4834537568624,
-      "tp": 665.195056,
-      "liq": 595.5242499999999,
-      "margen": 68.99637001781898,
+      "precio_entrada": 646.106785,
+      "precio_ref": 646.106785,
+      "sl": 652.65507679,
+      "tp": 632.73483107,
+      "liq": 694.91225,
+      "margen": 69.09737519438822,
       "lev": 12,
-      "hora_entrada": 494207,
-      "max_horas": 120,
-      "trailing": true,
-      "ts_entrada": "2026-05-18 22:00:00",
+      "hora_entrada": 494269,
+      "max_horas": 83,
+      "trailing": false,
+      "ts_entrada": "2026-05-21 12:00:00",
       "adaptive_factor": 0.5,
       "modo_sltp": "NIVEL",
-      "sl_nivel": "valle_local",
+      "sl_nivel": "EMA50",
       "tp_nivel": "ATR_fallback",
-      "atr_entrada": 3.84347,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.18) \u2192 sl_mult \u00d71.10 (1.98)"
+      "atr_entrada": 2.764111,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.33) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 46,
-  "n_wins": 21,
+  "n_ops": 47,
+  "n_wins": 22,
   "n_loses": 25,
-  "pnl_total": -178.61464264501197,
-  "funding_total": 60.66945189636233,
+  "pnl_total": -177.4122000668069,
+  "funding_total": 62.98772992896105,
   "ops_hoy": [
     {
       "ts": "2026-04-27 16:00:00",
@@ -493,15 +493,24 @@
       "salida": 85.2144,
       "pnl": -16.74,
       "capital": 821.39
+    },
+    {
+      "ts": "2026-05-21 12:00:00",
+      "simbolo": "BNB_USDT",
+      "dir": "long",
+      "motivo": "trailing_stop",
+      "entrada": 644.1319,
+      "salida": 648.1592,
+      "pnl": 1.2,
+      "capital": 822.59
     }
   ],
-  "ultima_ejecucion": "2026-05-21T10:24:44.955717+00:00",
+  "ultima_ejecucion": "2026-05-21T13:48:04.778270+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
     1.0,
     1.0,
-    1.0,
     0.0,
     1.0,
     1.0,
@@ -517,8 +526,9 @@
     1.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    1.0
   ],
   "adaptive_factor": 0.5,
-  "adaptive_trades_left": 10
+  "adaptive_trades_left": 9
 }
