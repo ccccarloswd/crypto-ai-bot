@@ -23,6 +23,28 @@
       "tp_nivel": "EMA50",
       "atr_entrada": 1.442391,
       "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "BNB_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 575.4575849999999,
+      "precio_ref": 575.4575849999999,
+      "sl": 566.45864,
+      "tp": 593.23932,
+      "liq": 532.03225,
+      "margen": 55.157562313216125,
+      "lev": 12,
+      "hora_entrada": 494657,
+      "max_horas": 57,
+      "trailing": false,
+      "ts_entrada": "2026-06-06 16:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "valle_local",
+      "tp_nivel": "pico_local",
+      "atr_entrada": 6.770773,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.18) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
@@ -575,7 +597,7 @@
       "capital": 778.94
     }
   ],
-  "ultima_ejecucion": "2026-06-06T15:55:05.292292+00:00",
+  "ultima_ejecucion": "2026-06-06T17:46:16.986199+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
