@@ -1,5 +1,5 @@
 {
-  "capital": 791.5161007964698,
+  "capital": 809.7741691536169,
   "capital_max": 1000.0,
   "posiciones": [
     {
@@ -23,38 +23,16 @@
       "tp_nivel": "EMA50",
       "atr_entrada": 1.442391,
       "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
-    {
-      "simbolo": "BNB_USDT",
-      "dir": "long",
-      "calidad": "nivel2",
-      "precio_entrada": 575.4575849999999,
-      "precio_ref": 589.42,
-      "sl": 580.236274291186,
-      "tp": 593.23932,
-      "liq": 532.03225,
-      "margen": 55.157562313216125,
-      "lev": 12,
-      "hora_entrada": 494657,
-      "max_horas": 57,
-      "trailing": true,
-      "ts_entrada": "2026-06-06 16:00:00",
-      "adaptive_factor": 0.5,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "valle_local",
-      "tp_nivel": "pico_local",
-      "atr_entrada": 6.770773,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.18) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 55,
-  "n_wins": 24,
+  "n_ops": 56,
+  "n_wins": 25,
   "n_loses": 31,
-  "pnl_total": -208.48389920353003,
-  "funding_total": 68.40230725198525,
+  "pnl_total": -190.22583084638293,
+  "funding_total": 68.93181985019213,
   "ops_hoy": [
     {
       "ts": "2026-04-27 16:00:00",
@@ -605,15 +583,24 @@
       "salida": 61887.9849,
       "pnl": 12.58,
       "capital": 791.52
+    },
+    {
+      "ts": "2026-06-07 10:00:00",
+      "simbolo": "BNB_USDT",
+      "dir": "long",
+      "motivo": "take_profit",
+      "entrada": 575.4576,
+      "salida": 592.9427,
+      "pnl": 18.26,
+      "capital": 809.77
     }
   ],
-  "ultima_ejecucion": "2026-06-07T08:38:47.234885+00:00",
+  "ultima_ejecucion": "2026-06-07T11:23:14.613613+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
     0.0,
     0.0,
-    0.0,
     1.0,
     0.0,
     0.0,
@@ -629,8 +616,9 @@
     0.0,
     0.0,
     0.0,
+    1.0,
     1.0
   ],
-  "adaptive_factor": 0.5,
-  "adaptive_trades_left": 1
+  "adaptive_factor": 1.0,
+  "adaptive_trades_left": 0
 }
