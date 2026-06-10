@@ -1,7 +1,52 @@
 {
   "capital": 829.84127151672,
   "capital_max": 1000.0,
-  "posiciones": [],
+  "posiciones": [
+    {
+      "simbolo": "BNB_USDT",
+      "dir": "long",
+      "calidad": "nivel3",
+      "precio_entrada": 590.8953,
+      "precio_ref": 590.8953,
+      "sl": 578.8152,
+      "tp": 621.24048,
+      "liq": 564.023,
+      "margen": 89.62285732380576,
+      "lev": 20,
+      "hora_entrada": 494752,
+      "max_horas": 120,
+      "trailing": false,
+      "ts_entrada": "2026-06-10 15:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "valle_local",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 4.650187,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.18) \u2192 sl_mult \u00d71.10 (1.76)"
+    },
+    {
+      "simbolo": "SOL_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 64.35215999999998,
+      "precio_ref": 64.35215999999998,
+      "sl": 62.97544,
+      "tp": 67.19272,
+      "liq": 59.495999999999995,
+      "margen": 55.892011895555534,
+      "lev": 12,
+      "hora_entrada": 494752,
+      "max_horas": 75,
+      "trailing": false,
+      "ts_entrada": "2026-06-10 15:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "valle_local",
+      "tp_nivel": "pico_local",
+      "atr_entrada": 0.823063,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
+    }
+  ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
@@ -582,7 +627,7 @@
       "capital": 829.84
     }
   ],
-  "ultima_ejecucion": "2026-06-10T12:45:56.046278+00:00",
+  "ultima_ejecucion": "2026-06-10T16:48:58.048929+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
