@@ -1,38 +1,15 @@
 {
-  "capital": 801.3223418264525,
+  "capital": 842.6034837775911,
   "capital_max": 1000.0,
-  "posiciones": [
-    {
-      "simbolo": "SOL_USDT",
-      "dir": "long",
-      "calidad": "nivel3",
-      "precio_entrada": 65.02249499999999,
-      "precio_ref": 66.85,
-      "sl": 65.47619053320197,
-      "tp": 67.19004,
-      "liq": 62.06544999999999,
-      "margen": 69.6877697259952,
-      "lev": 20,
-      "hora_entrada": 494765,
-      "max_horas": 57,
-      "trailing": true,
-      "ts_entrada": "2026-06-11 04:00:00",
-      "adaptive_factor": 0.5,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "SMA50",
-      "tp_nivel": "MAX50",
-      "atr_entrada": 0.827631,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.76)"
-    }
-  ],
+  "posiciones": [],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 61,
-  "n_wins": 27,
+  "n_ops": 62,
+  "n_wins": 28,
   "n_loses": 34,
-  "pnl_total": -198.67765817354734,
-  "funding_total": 72.61957048579653,
+  "pnl_total": -157.39651622240876,
+  "funding_total": 74.29207695922041,
   "ops_hoy": [
     {
       "ts": "2026-06-11 16:00:00",
@@ -53,12 +30,21 @@
       "salida": 596.0082,
       "pnl": 9.06,
       "capital": 801.32
+    },
+    {
+      "ts": "2026-06-12 10:00:00",
+      "simbolo": "SOL_USDT",
+      "dir": "long",
+      "motivo": "take_profit",
+      "entrada": 65.0225,
+      "salida": 67.1564,
+      "pnl": 41.28,
+      "capital": 842.6
     }
   ],
-  "ultima_ejecucion": "2026-06-12T07:08:10.352695+00:00",
+  "ultima_ejecucion": "2026-06-12T11:29:02.118025+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
-    0.0,
     1.0,
     0.0,
     0.0,
@@ -77,8 +63,9 @@
     0.0,
     0.0,
     0.0,
+    1.0,
     1.0
   ],
   "adaptive_factor": 0.5,
-  "adaptive_trades_left": 11
+  "adaptive_trades_left": 10
 }
