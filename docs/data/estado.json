@@ -10,69 +10,8 @@
   "n_loses": 37,
   "pnl_total": -197.86276648000256,
   "funding_total": 75.2943099568572,
-  "ops_hoy": [
-    {
-      "ts": "2026-06-11 16:00:00",
-      "simbolo": "ETH_USDT",
-      "dir": "long",
-      "motivo": "stop_loss",
-      "entrada": 1649.8045,
-      "salida": 1630.6406,
-      "pnl": -10.15,
-      "capital": 792.27
-    },
-    {
-      "ts": "2026-06-12 06:00:00",
-      "simbolo": "BNB_USDT",
-      "dir": "long",
-      "motivo": "trailing_stop",
-      "entrada": 590.8953,
-      "salida": 596.0082,
-      "pnl": 9.06,
-      "capital": 801.32
-    },
-    {
-      "ts": "2026-06-12 10:00:00",
-      "simbolo": "SOL_USDT",
-      "dir": "long",
-      "motivo": "take_profit",
-      "entrada": 65.0225,
-      "salida": 67.1564,
-      "pnl": 41.28,
-      "capital": 842.6
-    },
-    {
-      "ts": "2026-06-12 16:00:00",
-      "simbolo": "SOL_USDT",
-      "dir": "short",
-      "motivo": "stop_loss",
-      "entrada": 66.7066,
-      "salida": 67.6777,
-      "pnl": -14.04,
-      "capital": 828.57
-    },
-    {
-      "ts": "2026-06-14 14:00:00",
-      "simbolo": "ETH_USDT",
-      "dir": "long",
-      "motivo": "stop_loss",
-      "entrada": 1679.8995,
-      "salida": 1657.4884,
-      "pnl": -13.81,
-      "capital": 814.75
-    },
-    {
-      "ts": "2026-06-14 21:00:00",
-      "simbolo": "SOL_USDT",
-      "dir": "short",
-      "motivo": "stop_loss",
-      "entrada": 67.3463,
-      "salida": 68.246,
-      "pnl": -12.61,
-      "capital": 802.14
-    }
-  ],
-  "ultima_ejecucion": "2026-06-15T22:03:34.888024+00:00",
+  "ops_hoy": [],
+  "ultima_ejecucion": "2026-06-16T00:16:33.889413+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
