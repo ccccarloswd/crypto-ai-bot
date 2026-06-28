@@ -1,7 +1,52 @@
 {
   "capital": 815.9436516912596,
   "capital_max": 1000.0,
-  "posiciones": [],
+  "posiciones": [
+    {
+      "simbolo": "ETH_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 1574.436825,
+      "precio_ref": 1574.436825,
+      "sl": 1558.4208,
+      "tp": 1602.2554,
+      "liq": 1455.6262500000003,
+      "margen": 68.5392667420658,
+      "lev": 12,
+      "hora_entrada": 495181,
+      "max_horas": 66,
+      "trailing": false,
+      "ts_entrada": "2026-06-28 12:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "valle_local",
+      "tp_nivel": "MAX50",
+      "atr_entrada": 9.229716,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.14) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "SOL_USDT",
+      "dir": "long",
+      "calidad": "nivel3",
+      "precio_entrada": 71.345655,
+      "precio_ref": 71.345655,
+      "sl": 70.39158377,
+      "tp": 73.48476,
+      "liq": 68.10105,
+      "margen": 88.12191438265603,
+      "lev": 20,
+      "hora_entrada": 495181,
+      "max_horas": 76,
+      "trailing": false,
+      "ts_entrada": "2026-06-28 12:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "EMA50",
+      "tp_nivel": "MAX50",
+      "atr_entrada": 0.61406,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.76)"
+    }
+  ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
@@ -62,7 +107,7 @@
       "capital": 815.94
     }
   ],
-  "ultima_ejecucion": "2026-06-28T10:54:30.118605+00:00",
+  "ultima_ejecucion": "2026-06-28T13:03:58.410191+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
