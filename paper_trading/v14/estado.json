@@ -1,7 +1,52 @@
 {
   "capital": 867.0591734788735,
   "capital_max": 1000.0,
-  "posiciones": [],
+  "posiciones": [
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 59374.67249999999,
+      "precio_ref": 59374.67249999999,
+      "sl": 58804.44,
+      "tp": 60449.62,
+      "liq": 54894.125,
+      "margen": 145.66594114445076,
+      "lev": 12,
+      "hora_entrada": 495253,
+      "max_horas": 62,
+      "trailing": false,
+      "ts_entrada": "2026-07-01 12:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "valle_local",
+      "tp_nivel": "MAX50",
+      "atr_entrada": 378.873846,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "BNB_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 548.544135,
+      "precio_ref": 548.544135,
+      "sl": 539.07384,
+      "tp": 568.501552,
+      "liq": 507.14975,
+      "margen": 145.66594114445076,
+      "lev": 12,
+      "hora_entrada": 495253,
+      "max_horas": 120,
+      "trailing": false,
+      "ts_entrada": "2026-07-01 12:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "valle_local",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 3.348753,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.18) \u2192 sl_mult \u00d71.10 (1.98)"
+    }
+  ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
@@ -82,7 +127,7 @@
       "capital": 867.06
     }
   ],
-  "ultima_ejecucion": "2026-07-01T10:56:13.070349+00:00",
+  "ultima_ejecucion": "2026-07-01T13:56:09.003739+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
