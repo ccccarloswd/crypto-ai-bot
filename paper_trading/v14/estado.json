@@ -1,35 +1,13 @@
 {
-  "capital": 850.2655311638049,
+  "capital": 861.8133872940358,
   "capital_max": 1000.0,
   "posiciones": [
-    {
-      "simbolo": "SOL_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 81.73911000000001,
-      "precio_ref": 79.84,
-      "sl": 80.91149900887622,
-      "tp": 79.37536631,
-      "liq": 87.9135,
-      "margen": 149.65900568012225,
-      "lev": 12,
-      "hora_entrada": 495323,
-      "max_horas": 59,
-      "trailing": true,
-      "ts_entrada": "2026-07-04 10:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "pico_local",
-      "tp_nivel": "EMA100",
-      "atr_entrada": 0.67802,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.24) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
     {
       "simbolo": "ETH_USDT",
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 1758.5103050000002,
-      "precio_ref": 1758.5103050000002,
+      "precio_ref": 1758.43,
       "sl": 1776.38512,
       "tp": 1721.57135698,
       "liq": 1891.34425,
@@ -45,16 +23,38 @@
       "tp_nivel": "EMA100",
       "atr_entrada": 10.791298,
       "ia_ajuste": "IA 4h d\u00e9bil (0.32) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "calidad": "nivel2",
+      "precio_entrada": 62625.57155000001,
+      "precio_ref": 62625.57155000001,
+      "sl": 63375.8552,
+      "tp": 60904.8806,
+      "liq": 67356.1675,
+      "margen": 142.84460923551924,
+      "lev": 12,
+      "hora_entrada": 495348,
+      "max_horas": 118,
+      "trailing": false,
+      "ts_entrada": "2026-07-05 11:00:00",
+      "adaptive_factor": 1.0,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "pico_local",
+      "tp_nivel": "SMA200",
+      "atr_entrada": 247.913235,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.22) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 76,
-  "n_wins": 35,
+  "n_ops": 77,
+  "n_wins": 36,
   "n_loses": 41,
-  "pnl_total": -149.734468836195,
-  "funding_total": 82.81749291057861,
+  "pnl_total": -138.1866127059641,
+  "funding_total": 84.97258259237236,
   "ops_hoy": [
     {
       "ts": "2026-06-18 16:00:00",
@@ -165,12 +165,21 @@
       "salida": 1788.0318,
       "pnl": -40.56,
       "capital": 850.27
+    },
+    {
+      "ts": "2026-07-05 11:00:00",
+      "simbolo": "SOL_USDT",
+      "dir": "short",
+      "motivo": "trailing_stop",
+      "entrada": 81.7391,
+      "salida": 80.952,
+      "pnl": 11.55,
+      "capital": 861.81
     }
   ],
-  "ultima_ejecucion": "2026-07-05T10:49:54.707224+00:00",
+  "ultima_ejecucion": "2026-07-05T12:51:52.462612+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
-    1.0,
     0.0,
     0.0,
     0.0,
@@ -189,7 +198,8 @@
     1.0,
     1.0,
     0.0,
-    0.0
+    0.0,
+    1.0
   ],
   "adaptive_factor": 1.0,
   "adaptive_trades_left": 0
