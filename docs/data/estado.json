@@ -1,7 +1,30 @@
 {
   "capital": 735.6545731075896,
   "capital_max": 1000.0,
-  "posiciones": [],
+  "posiciones": [
+    {
+      "simbolo": "SOL_USDT",
+      "dir": "short",
+      "calidad": "nivel2",
+      "precio_entrada": 80.88953500000001,
+      "precio_ref": 80.88953500000001,
+      "sl": 81.91104,
+      "tp": 78.94150019,
+      "liq": 86.99975,
+      "margen": 59.82884250822709,
+      "lev": 12,
+      "hora_entrada": 495407,
+      "max_horas": 44,
+      "trailing": false,
+      "ts_entrada": "2026-07-07 22:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "SMA50",
+      "tp_nivel": "EMA200",
+      "atr_entrada": 0.756356,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.24) \u2192 sl_mult \u00d71.10 (1.98)"
+    }
+  ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
@@ -192,7 +215,7 @@
       "capital": 735.65
     }
   ],
-  "ultima_ejecucion": "2026-07-07T21:58:45.028271+00:00",
+  "ultima_ejecucion": "2026-07-07T23:33:16.303420+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
