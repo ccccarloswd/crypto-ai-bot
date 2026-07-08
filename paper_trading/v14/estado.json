@@ -7,7 +7,7 @@
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 1774.202455,
-      "precio_ref": 1749.73,
+      "precio_ref": 1749.59,
       "sl": 1792.10438639,
       "tp": 1735.03036,
       "liq": 1908.22175,
@@ -23,6 +23,28 @@
       "tp_nivel": "MIN50",
       "atr_entrada": 15.625248,
       "ia_ajuste": "IA 4h d\u00e9bil (0.32) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "calidad": "nivel2",
+      "precio_entrada": 62794.58700000001,
+      "precio_ref": 62794.58700000001,
+      "sl": 63693.77781699,
+      "tp": 60916.88880262,
+      "liq": 67537.95,
+      "margen": 63.0973057460414,
+      "lev": 12,
+      "hora_entrada": 495415,
+      "max_horas": 76,
+      "trailing": false,
+      "ts_entrada": "2026-07-08 06:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "EMA50",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 417.115374,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.22) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
@@ -225,7 +247,7 @@
       "capital": 751.16
     }
   ],
-  "ultima_ejecucion": "2026-07-08T04:52:04.716963+00:00",
+  "ultima_ejecucion": "2026-07-08T07:57:06.843381+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
