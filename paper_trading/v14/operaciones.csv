@@ -92,3 +92,4 @@ ts,simbolo,dir,motivo,entrada,salida,pnl,capital
 2026-07-07 15:00:00,ETH_USDT,short,trailing_stop,1803.7577,1796.8779,0.74,747.67
 2026-07-07 17:00:00,SOL_USDT,short,stop_loss,81.2793,82.3817,-12.02,735.65
 2026-07-08 03:00:00,SOL_USDT,short,take_profit,80.8895,78.981,15.5,751.16
+2026-07-08 09:00:00,ETH_USDT,short,take_profit,1774.2025,1735.8979,14.23,765.39
