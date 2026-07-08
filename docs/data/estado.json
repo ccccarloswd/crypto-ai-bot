@@ -7,7 +7,7 @@
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 80.88953500000001,
-      "precio_ref": 80.88953500000001,
+      "precio_ref": 80.3,
       "sl": 81.91104,
       "tp": 78.94150019,
       "liq": 86.99975,
@@ -23,6 +23,28 @@
       "tp_nivel": "EMA200",
       "atr_entrada": 0.756356,
       "ia_ajuste": "IA 4h d\u00e9bil (0.24) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "ETH_USDT",
+      "dir": "short",
+      "calidad": "nivel2",
+      "precio_entrada": 1774.202455,
+      "precio_ref": 1774.202455,
+      "sl": 1792.10438639,
+      "tp": 1735.03036,
+      "liq": 1908.22175,
+      "margen": 61.79498414103753,
+      "lev": 12,
+      "hora_entrada": 495409,
+      "max_horas": 43,
+      "trailing": false,
+      "ts_entrada": "2026-07-08 00:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "EMA50",
+      "tp_nivel": "MIN50",
+      "atr_entrada": 15.625248,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.32) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
@@ -215,7 +237,7 @@
       "capital": 735.65
     }
   ],
-  "ultima_ejecucion": "2026-07-07T23:33:16.303420+00:00",
+  "ultima_ejecucion": "2026-07-08T01:07:27.831312+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
