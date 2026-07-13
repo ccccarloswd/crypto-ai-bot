@@ -1,5 +1,5 @@
 {
-  "capital": 720.0243367738036,
+  "capital": 705.6512290312876,
   "capital_max": 1000.0,
   "posiciones": [
     {
@@ -7,15 +7,15 @@
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 63891.2384,
-      "precio_ref": 63725.0,
-      "sl": 64661.9856,
+      "precio_ref": 62626.0,
+      "sl": 63203.872901998264,
       "tp": 61878.8928,
       "liq": 68717.43999999999,
       "margen": 62.25156431953903,
       "lev": 12,
       "hora_entrada": 495474,
       "max_horas": 95,
-      "trailing": false,
+      "trailing": true,
       "ts_entrada": "2026-07-10 17:00:00",
       "adaptive_factor": 0.5,
       "modo_sltp": "NIVEL",
@@ -29,15 +29,15 @@
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 575.262225,
-      "precio_ref": 575.262225,
-      "sl": 581.21694942,
+      "precio_ref": 566.95,
+      "sl": 572.3151681399873,
       "tp": 563.08271128,
       "liq": 618.71625,
       "margen": 60.482044288999504,
       "lev": 12,
       "hora_entrada": 495529,
       "max_horas": 90,
-      "trailing": false,
+      "trailing": true,
       "ts_entrada": "2026-07-13 00:00:00",
       "adaptive_factor": 0.5,
       "modo_sltp": "NIVEL",
@@ -45,37 +45,15 @@
       "tp_nivel": "ATR_fallback",
       "atr_entrada": 2.318496,
       "ia_ajuste": "IA 4h d\u00e9bil (0.33) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
-    {
-      "simbolo": "SOL_USDT",
-      "dir": "long",
-      "calidad": "nivel2",
-      "precio_entrada": 77.128545,
-      "precio_ref": 77.128545,
-      "sl": 75.79328,
-      "tp": 79.942784,
-      "liq": 71.30825,
-      "margen": 60.482044288999504,
-      "lev": 12,
-      "hora_entrada": 495529,
-      "max_horas": 120,
-      "trailing": false,
-      "ts_entrada": "2026-07-13 00:00:00",
-      "adaptive_factor": 0.5,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "valle_local",
-      "tp_nivel": "ATR_fallback",
-      "atr_entrada": 0.51201,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 89,
+  "n_ops": 90,
   "n_wins": 39,
-  "n_loses": 50,
-  "pnl_total": -279.97566322619633,
+  "n_loses": 51,
+  "pnl_total": -294.3487709687123,
   "funding_total": 91.64407457842736,
   "ops_hoy": [
     {
@@ -317,12 +295,21 @@
       "salida": 77.0379,
       "pnl": -10.45,
       "capital": 720.02
+    },
+    {
+      "ts": "2026-07-13 04:00:00",
+      "simbolo": "SOL_USDT",
+      "dir": "long",
+      "motivo": "stop_loss",
+      "entrada": 77.1285,
+      "salida": 75.7554,
+      "pnl": -14.37,
+      "capital": 705.65
     }
   ],
-  "ultima_ejecucion": "2026-07-13T01:11:51.405593+00:00",
+  "ultima_ejecucion": "2026-07-13T05:06:08.778234+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
-    0.0,
     1.0,
     1.0,
     1.0,
@@ -338,11 +325,12 @@
     0.0,
     1.0,
     1.0,
+    0.0,
     0.0,
     0.0,
     0.0,
     0.0
   ],
   "adaptive_factor": 0.5,
-  "adaptive_trades_left": 7
+  "adaptive_trades_left": 6
 }
