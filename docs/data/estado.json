@@ -7,8 +7,8 @@
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 63891.2384,
-      "precio_ref": 62626.0,
-      "sl": 63203.872901998264,
+      "precio_ref": 62206.7,
+      "sl": 62882.08268881727,
       "tp": 61878.8928,
       "liq": 68717.43999999999,
       "margen": 62.25156431953903,
@@ -29,8 +29,8 @@
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 575.262225,
-      "precio_ref": 566.95,
-      "sl": 572.3151681399873,
+      "precio_ref": 565.45,
+      "sl": 570.5366768673604,
       "tp": 563.08271128,
       "liq": 618.71625,
       "margen": 60.482044288999504,
@@ -307,7 +307,7 @@
       "capital": 705.65
     }
   ],
-  "ultima_ejecucion": "2026-07-13T15:31:07.918738+00:00",
+  "ultima_ejecucion": "2026-07-13T17:34:34.849637+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
