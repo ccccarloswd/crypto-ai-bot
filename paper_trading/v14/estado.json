@@ -1,38 +1,15 @@
 {
-  "capital": 772.6485633257345,
+  "capital": 787.4318402852979,
   "capital_max": 1000.0,
-  "posiciones": [
-    {
-      "simbolo": "ETH_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 1916.9610400000001,
-      "precio_ref": 1886.58,
-      "sl": 1937.41262897,
-      "tp": 1875.03621626,
-      "liq": 2061.764,
-      "margen": 64.9024793193617,
-      "lev": 12,
-      "hora_entrada": 495772,
-      "max_horas": 59,
-      "trailing": false,
-      "ts_entrada": "2026-07-23 03:00:00",
-      "adaptive_factor": 0.5,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "EMA50",
-      "tp_nivel": "ATR_fallback",
-      "atr_entrada": 12.211009,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.32) \u2192 sl_mult \u00d71.10 (1.98)"
-    }
-  ],
+  "posiciones": [],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 95,
-  "n_wins": 44,
+  "n_ops": 96,
+  "n_wins": 45,
   "n_loses": 51,
-  "pnl_total": -227.35143667426536,
-  "funding_total": 98.28526239393078,
+  "pnl_total": -212.568159714702,
+  "funding_total": 98.59679429466371,
   "ops_hoy": [
     {
       "ts": "2026-07-15 11:00:00",
@@ -63,12 +40,21 @@
       "salida": 574.4623,
       "pnl": 2.37,
       "capital": 772.65
+    },
+    {
+      "ts": "2026-07-23 17:00:00",
+      "simbolo": "ETH_USDT",
+      "dir": "short",
+      "motivo": "take_profit",
+      "entrada": 1916.961,
+      "salida": 1875.9737,
+      "pnl": 14.78,
+      "capital": 787.43
     }
   ],
-  "ultima_ejecucion": "2026-07-23T17:03:59.414976+00:00",
+  "ultima_ejecucion": "2026-07-23T18:48:47.129650+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
-    0.0,
     1.0,
     0.0,
     0.0,
@@ -83,12 +69,13 @@
     0.0,
     0.0,
     0.0,
+    1.0,
     1.0,
     1.0,
     1.0,
     1.0,
     1.0
   ],
-  "adaptive_factor": 0.5,
-  "adaptive_trades_left": 1
+  "adaptive_factor": 1.0,
+  "adaptive_trades_left": 0
 }
