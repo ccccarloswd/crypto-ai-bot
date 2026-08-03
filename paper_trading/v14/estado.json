@@ -1,7 +1,30 @@
 {
   "capital": 781.1991700781033,
   "capital_max": 1000.0,
-  "posiciones": [],
+  "posiciones": [
+    {
+      "simbolo": "ETH_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 1871.57532,
+      "precio_ref": 1871.57532,
+      "sl": 1847.11675891,
+      "tp": 1922.3911304,
+      "liq": 1730.342,
+      "margen": 65.62073028656069,
+      "lev": 12,
+      "hora_entrada": 496050,
+      "max_horas": 93,
+      "trailing": false,
+      "ts_entrada": "2026-08-03 17:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "EMA50",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 11.955363,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.14) \u2192 sl_mult \u00d71.10 (1.98)"
+    }
+  ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
@@ -142,7 +165,7 @@
       "capital": 781.2
     }
   ],
-  "ultima_ejecucion": "2026-08-03T16:06:15.990677+00:00",
+  "ultima_ejecucion": "2026-08-03T18:22:05.421803+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
