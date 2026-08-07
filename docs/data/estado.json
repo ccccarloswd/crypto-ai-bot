@@ -7,7 +7,7 @@
       "dir": "long",
       "calidad": "nivel2",
       "precio_entrada": 73.84690499999999,
-      "precio_ref": 73.84690499999999,
+      "precio_ref": 73.97,
       "sl": 73.05107487,
       "tp": 75.47963529,
       "liq": 68.27425000000001,
@@ -55,7 +55,7 @@
       "capital": 776.0
     }
   ],
-  "ultima_ejecucion": "2026-08-07T19:36:35.550062+00:00",
+  "ultima_ejecucion": "2026-08-07T20:22:24.284623+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
