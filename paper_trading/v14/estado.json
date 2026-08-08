@@ -7,7 +7,7 @@
       "dir": "long",
       "calidad": "nivel2",
       "precio_entrada": 73.84690499999999,
-      "precio_ref": 73.97,
+      "precio_ref": 74.6,
       "sl": 73.05107487,
       "tp": 75.47963529,
       "liq": 68.27425000000001,
@@ -34,7 +34,7 @@
   "pnl_total": -224.00457008780174,
   "funding_total": 107.66333448648321,
   "ops_hoy": [],
-  "ultima_ejecucion": "2026-08-08T03:55:05.326073+00:00",
+  "ultima_ejecucion": "2026-08-08T05:23:02.582264+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
