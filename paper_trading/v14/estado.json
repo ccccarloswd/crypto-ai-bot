@@ -1,29 +1,7 @@
 {
-  "capital": 790.6997661431719,
+  "capital": 785.6058275295727,
   "capital_max": 1000.0,
   "posiciones": [
-    {
-      "simbolo": "BTC_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 64861.053250000004,
-      "precio_ref": 64730.9,
-      "sl": 65087.38218943,
-      "tp": 64373.874,
-      "liq": 69760.5125,
-      "margen": 66.41878035602645,
-      "lev": 12,
-      "hora_entrada": 496175,
-      "max_horas": 111,
-      "trailing": false,
-      "ts_entrada": "2026-08-08 22:00:00",
-      "adaptive_factor": 0.5,
-      "modo_sltp": "ATR_FALLBACK",
-      "sl_nivel": "ATR_fallback",
-      "tp_nivel": "MIN50",
-      "atr_entrada": 97.920298,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.22) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
     {
       "simbolo": "ETH_USDT",
       "dir": "short",
@@ -50,11 +28,11 @@
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 109,
+  "n_ops": 110,
   "n_wins": 52,
-  "n_loses": 57,
-  "pnl_total": -209.30023385682784,
-  "funding_total": 108.28909720116441,
+  "n_loses": 58,
+  "pnl_total": -214.394172470427,
+  "funding_total": 108.60790734687333,
   "ops_hoy": [
     {
       "ts": "2026-08-08 10:00:00",
@@ -65,12 +43,21 @@
       "salida": 75.4419,
       "pnl": 14.7,
       "capital": 790.7
+    },
+    {
+      "ts": "2026-08-09 12:00:00",
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "motivo": "stop_loss",
+      "entrada": 64861.0533,
+      "salida": 65119.9259,
+      "pnl": -5.09,
+      "capital": 785.61
     }
   ],
-  "ultima_ejecucion": "2026-08-09T11:59:36.689112+00:00",
+  "ultima_ejecucion": "2026-08-09T13:34:28.927052+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
-    0.0,
     1.0,
     1.0,
     1.0,
@@ -89,8 +76,9 @@
     1.0,
     1.0,
     0.0,
-    1.0
+    1.0,
+    0.0
   ],
   "adaptive_factor": 0.5,
-  "adaptive_trades_left": 3
+  "adaptive_trades_left": 2
 }
