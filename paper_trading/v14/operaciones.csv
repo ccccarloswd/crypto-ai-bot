@@ -122,3 +122,4 @@ ts,simbolo,dir,motivo,entrada,salida,pnl,capital
 2026-08-10 14:00:00,ETH_USDT,short,take_profit,1921.2089,1876.6527,34.79,809.42
 2026-08-11 11:00:00,BTC_USDT,short,trailing_stop,65012.1776,64385.9322,4.71,814.13
 2026-08-11 14:00:00,SOL_USDT,short,trailing_stop,76.6517,76.0054,3.77,817.91
+2026-08-11 15:00:00,ETH_USDT,long,stop_loss,1876.7879,1852.9663,-24.63,793.28

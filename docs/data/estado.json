@@ -1,38 +1,38 @@
 {
-  "capital": 817.9061184827732,
+  "capital": 793.2777603073097,
   "capital_max": 1000.0,
   "posiciones": [
     {
       "simbolo": "ETH_USDT",
       "dir": "long",
       "calidad": "nivel2",
-      "precio_entrada": 1876.7879249999999,
-      "precio_ref": 1891.57,
-      "sl": 1853.8932,
-      "tp": 1921.3666,
-      "liq": 1735.16125,
-      "margen": 135.98303747098265,
+      "precio_entrada": 1863.6313499999999,
+      "precio_ref": 1863.6313499999999,
+      "sl": 1837.5284,
+      "tp": 1908.71208,
+      "liq": 1722.9975000000002,
+      "margen": 133.27066373162805,
       "lev": 12,
-      "hora_entrada": 496231,
-      "max_horas": 120,
+      "hora_entrada": 496240,
+      "max_horas": 107,
       "trailing": false,
-      "ts_entrada": "2026-08-11 06:00:00",
+      "ts_entrada": "2026-08-11 15:00:00",
       "adaptive_factor": 1.0,
       "modo_sltp": "NIVEL",
-      "sl_nivel": "valle_local",
-      "tp_nivel": "pico_local",
-      "atr_entrada": 6.697567,
+      "sl_nivel": "MIN50",
+      "tp_nivel": "FIB_236",
+      "atr_entrada": 9.222066,
       "ia_ajuste": "IA 4h d\u00e9bil (0.14) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 114,
+  "n_ops": 115,
   "n_wins": 55,
-  "n_loses": 59,
-  "pnl_total": -182.09388151722646,
-  "funding_total": 112.73228056996594,
+  "n_loses": 60,
+  "pnl_total": -206.72223969268995,
+  "funding_total": 113.38499914982665,
   "ops_hoy": [
     {
       "ts": "2026-08-11 11:00:00",
@@ -53,13 +53,22 @@
       "salida": 76.0054,
       "pnl": 3.77,
       "capital": 817.91
+    },
+    {
+      "ts": "2026-08-11 15:00:00",
+      "simbolo": "ETH_USDT",
+      "dir": "long",
+      "motivo": "stop_loss",
+      "entrada": 1876.7879,
+      "salida": 1852.9663,
+      "pnl": -24.63,
+      "capital": 793.28
     }
   ],
-  "ultima_ejecucion": "2026-08-11T15:33:08.507115+00:00",
+  "ultima_ejecucion": "2026-08-11T16:29:46.677040+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
-    1.0,
     0.0,
     1.0,
     1.0,
@@ -77,7 +86,8 @@
     0.0,
     1.0,
     1.0,
-    1.0
+    1.0,
+    0.0
   ],
   "adaptive_factor": 1.0,
   "adaptive_trades_left": 0
