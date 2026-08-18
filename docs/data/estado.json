@@ -1,5 +1,5 @@
 {
-  "capital": 797.0937773973412,
+  "capital": 810.8004873893983,
   "capital_max": 1000.0,
   "posiciones": [
     {
@@ -23,38 +23,16 @@
       "tp_nivel": "ATR_fallback",
       "atr_entrada": 6.415624,
       "ia_ajuste": "IA 4h d\u00e9bil (0.14) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
-    {
-      "simbolo": "SOL_USDT",
-      "dir": "long",
-      "calidad": "nivel2",
-      "precio_entrada": 75.51774,
-      "precio_ref": 76.21,
-      "sl": 74.73616,
-      "tp": 77.116448,
-      "liq": 69.819,
-      "margen": 66.95587730137667,
-      "lev": 12,
-      "hora_entrada": 496373,
-      "max_horas": 120,
-      "trailing": false,
-      "ts_entrada": "2026-08-17 04:00:00",
-      "adaptive_factor": 0.5,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "valle_local",
-      "tp_nivel": "ATR_fallback",
-      "atr_entrada": 0.284437,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 120,
-  "n_wins": 57,
+  "n_ops": 121,
+  "n_wins": 58,
   "n_loses": 63,
-  "pnl_total": -202.9062226026584,
-  "funding_total": 125.09766085108595,
+  "pnl_total": -189.1995126106013,
+  "funding_total": 126.38321369527237,
   "ops_hoy": [
     {
       "ts": "2026-08-14 21:00:00",
@@ -95,15 +73,24 @@
       "salida": 62825.8073,
       "pnl": -10.85,
       "capital": 797.09
+    },
+    {
+      "ts": "2026-08-18 14:00:00",
+      "simbolo": "SOL_USDT",
+      "dir": "long",
+      "motivo": "take_profit",
+      "entrada": 75.5177,
+      "salida": 77.0779,
+      "pnl": 13.71,
+      "capital": 810.8
     }
   ],
-  "ultima_ejecucion": "2026-08-18T14:10:16.405917+00:00",
+  "ultima_ejecucion": "2026-08-18T15:05:14.456020+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
     0.0,
     0.0,
-    0.0,
     1.0,
     1.0,
     1.0,
@@ -119,8 +106,9 @@
     0.0,
     0.0,
     1.0,
-    0.0
+    0.0,
+    1.0
   ],
   "adaptive_factor": 0.5,
-  "adaptive_trades_left": 15
+  "adaptive_trades_left": 14
 }
