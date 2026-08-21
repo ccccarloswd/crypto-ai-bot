@@ -1,37 +1,37 @@
 {
-  "capital": 827.4159366399123,
+  "capital": 813.4875233815324,
   "capital_max": 1000.0,
   "posiciones": [
     {
-      "simbolo": "SOL_USDT",
+      "simbolo": "ETH_USDT",
       "dir": "short",
       "calidad": "nivel2",
-      "precio_entrada": 87.21637000000001,
-      "precio_ref": 86.88,
-      "sl": 88.59808,
-      "tp": 84.36563496,
-      "liq": 93.8045,
-      "margen": 63.252620799061646,
+      "precio_entrada": 2349.614605,
+      "precio_ref": 2349.614605,
+      "sl": 2376.68632,
+      "tp": 2302.47402788,
+      "liq": 2527.0992499999998,
+      "margen": 58.191188069900825,
       "lev": 12,
-      "hora_entrada": 496459,
-      "max_horas": 53,
+      "hora_entrada": 496466,
+      "max_horas": 28,
       "trailing": false,
-      "ts_entrada": "2026-08-20 18:00:00",
+      "ts_entrada": "2026-08-21 01:00:00",
       "adaptive_factor": 0.5,
       "modo_sltp": "NIVEL",
       "sl_nivel": "pico_local",
-      "tp_nivel": "BB_inf",
-      "atr_entrada": 0.90414,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.24) \u2192 sl_mult \u00d71.10 (1.98)"
+      "tp_nivel": "EMA21",
+      "atr_entrada": 27.990001,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.32) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 122,
+  "n_ops": 123,
   "n_wins": 59,
-  "n_loses": 63,
-  "pnl_total": -172.58406336008736,
+  "n_loses": 64,
+  "pnl_total": -186.51247661846728,
   "funding_total": 128.63293117259863,
   "ops_hoy": [
     {
@@ -93,13 +93,22 @@
       "salida": 1945.7945,
       "pnl": 16.62,
       "capital": 827.42
+    },
+    {
+      "ts": "2026-08-21 01:00:00",
+      "simbolo": "SOL_USDT",
+      "dir": "short",
+      "motivo": "stop_loss",
+      "entrada": 87.2164,
+      "salida": 88.6424,
+      "pnl": -13.93,
+      "capital": 813.49
     }
   ],
-  "ultima_ejecucion": "2026-08-20T23:54:32.356015+00:00",
+  "ultima_ejecucion": "2026-08-21T02:10:49.099616+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
-    0.0,
     1.0,
     1.0,
     1.0,
@@ -117,8 +126,9 @@
     1.0,
     0.0,
     1.0,
-    1.0
+    1.0,
+    0.0
   ],
   "adaptive_factor": 0.5,
-  "adaptive_trades_left": 13
+  "adaptive_trades_left": 12
 }
