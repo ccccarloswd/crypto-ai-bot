@@ -23,6 +23,28 @@
       "tp_nivel": "valle_local",
       "atr_entrada": 32.657912,
       "ia_ajuste": "IA 4h d\u00e9bil (0.32) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "calidad": "nivel2",
+      "precio_entrada": 77284.43845000002,
+      "precio_ref": 77284.43845000002,
+      "sl": 78143.4848,
+      "tp": 75369.4946,
+      "liq": 83122.3325,
+      "margen": 67.51014314825251,
+      "lev": 12,
+      "hora_entrada": 496508,
+      "max_horas": 58,
+      "trailing": false,
+      "ts_entrada": "2026-08-22 19:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "pico_local",
+      "tp_nivel": "FIB_618",
+      "atr_entrada": 561.06775,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.22) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
@@ -115,7 +137,7 @@
       "capital": 803.69
     }
   ],
-  "ultima_ejecucion": "2026-08-22T19:51:45.364115+00:00",
+  "ultima_ejecucion": "2026-08-22T20:54:34.226275+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
