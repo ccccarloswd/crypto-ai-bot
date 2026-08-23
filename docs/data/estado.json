@@ -45,6 +45,28 @@
       "tp_nivel": "FIB_618",
       "atr_entrada": 561.06775,
       "ia_ajuste": "IA 4h d\u00e9bil (0.22) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "SOL_USDT",
+      "dir": "short",
+      "calidad": "nivel2",
+      "precio_entrada": 93.11342,
+      "precio_ref": 93.11342,
+      "sl": 94.09728,
+      "tp": 90.93264,
+      "liq": 100.14699999999999,
+      "margen": 46.53823086970651,
+      "lev": 12,
+      "hora_entrada": 496521,
+      "max_horas": 24,
+      "trailing": false,
+      "ts_entrada": "2026-08-23 08:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "SMA50",
+      "tp_nivel": "valle_local",
+      "atr_entrada": 1.533583,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.24) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
@@ -137,7 +159,7 @@
       "capital": 803.69
     }
   ],
-  "ultima_ejecucion": "2026-08-23T07:58:53.534715+00:00",
+  "ultima_ejecucion": "2026-08-23T09:01:03.339708+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
