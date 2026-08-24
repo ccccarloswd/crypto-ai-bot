@@ -135,3 +135,5 @@ ts,simbolo,dir,motivo,entrada,salida,pnl,capital
 2026-08-23 10:00:00,SOL_USDT,short,stop_loss,93.1134,94.1443,-7.3,796.39
 2026-08-23 12:00:00,ETH_USDT,short,stop_loss,2425.5566,2468.6379,-13.21,783.18
 2026-08-24 06:00:00,SOL_USDT,short,stop_loss,93.883,95.1252,-9.9,773.28
+2026-08-24 10:00:00,BTC_USDT,short,stop_loss,77284.4385,78182.5565,-12.33,760.95
+2026-08-24 10:00:00,ETH_USDT,short,stop_loss,2449.2847,2503.8654,-17.71,743.24
