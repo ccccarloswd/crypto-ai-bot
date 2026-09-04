@@ -10,19 +10,8 @@
   "n_loses": 74,
   "pnl_total": -264.7150912657937,
   "funding_total": 135.0504428066033,
-  "ops_hoy": [
-    {
-      "ts": "2026-09-03 13:00:00",
-      "simbolo": "SOL_USDT",
-      "dir": "long",
-      "motivo": "take_profit",
-      "entrada": 99.4897,
-      "salida": 102.0176,
-      "pnl": 29.87,
-      "capital": 735.28
-    }
-  ],
-  "ultima_ejecucion": "2026-09-03T21:52:50.922676+00:00",
+  "ops_hoy": [],
+  "ultima_ejecucion": "2026-09-04T00:20:12.660478+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
