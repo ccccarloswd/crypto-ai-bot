@@ -1,7 +1,30 @@
 {
   "capital": 762.5067856117332,
   "capital_max": 1000.0,
-  "posiciones": [],
+  "posiciones": [
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "calidad": "nivel2",
+      "precio_entrada": 79660.05005,
+      "precio_ref": 79660.05005,
+      "sl": 80588.7992,
+      "tp": 77744.32176,
+      "liq": 85677.39249999999,
+      "margen": 64.0505699913856,
+      "lev": 12,
+      "hora_entrada": 496865,
+      "max_horas": 120,
+      "trailing": false,
+      "ts_entrada": "2026-09-06 16:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "pico_local",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 227.261168,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.22) \u2192 sl_mult \u00d71.10 (1.98)"
+    }
+  ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
@@ -11,7 +34,7 @@
   "pnl_total": -237.4932143882665,
   "funding_total": 135.34690968180493,
   "ops_hoy": [],
-  "ultima_ejecucion": "2026-09-06T13:47:43.652428+00:00",
+  "ultima_ejecucion": "2026-09-06T17:19:53.115878+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
