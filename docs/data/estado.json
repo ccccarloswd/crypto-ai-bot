@@ -1,35 +1,13 @@
 {
-  "capital": 762.5067856117332,
+  "capital": 777.5413659346436,
   "capital_max": 1000.0,
   "posiciones": [
-    {
-      "simbolo": "BTC_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 79660.05005,
-      "precio_ref": 78656.6,
-      "sl": 79238.17262635616,
-      "tp": 77744.32176,
-      "liq": 85677.39249999999,
-      "margen": 64.0505699913856,
-      "lev": 12,
-      "hora_entrada": 496865,
-      "max_horas": 120,
-      "trailing": true,
-      "ts_entrada": "2026-09-06 16:00:00",
-      "adaptive_factor": 0.5,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "pico_local",
-      "tp_nivel": "ATR_fallback",
-      "atr_entrada": 227.261168,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.22) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
     {
       "simbolo": "ETH_USDT",
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 2489.624565,
-      "precio_ref": 2469.33,
+      "precio_ref": 2458.15,
       "sl": 2524.80696,
       "tp": 2416.208688,
       "liq": 2677.68525,
@@ -50,16 +28,26 @@
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 138,
-  "n_wins": 64,
+  "n_ops": 139,
+  "n_wins": 65,
   "n_loses": 74,
-  "pnl_total": -237.4932143882665,
-  "funding_total": 135.34690968180493,
-  "ops_hoy": [],
-  "ultima_ejecucion": "2026-09-08T10:03:22.887575+00:00",
+  "pnl_total": -222.45863406535605,
+  "funding_total": 136.8841233615982,
+  "ops_hoy": [
+    {
+      "ts": "2026-09-08 13:00:00",
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "motivo": "take_profit",
+      "entrada": 79660.0501,
+      "salida": 77783.1939,
+      "pnl": 15.03,
+      "capital": 777.54
+    }
+  ],
+  "ultima_ejecucion": "2026-09-08T14:45:22.711654+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
-    1.0,
     0.0,
     1.0,
     1.0,
@@ -76,10 +64,11 @@
     1.0,
     1.0,
     0.0,
+    1.0,
     1.0,
     1.0,
     1.0
   ],
   "adaptive_factor": 0.5,
-  "adaptive_trades_left": 13
+  "adaptive_trades_left": 12
 }
