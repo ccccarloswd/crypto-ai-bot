@@ -1,5 +1,5 @@
 {
-  "capital": 777.5413659346436,
+  "capital": 765.9386340741567,
   "capital_max": 1000.0,
   "posiciones": [
     {
@@ -25,33 +25,11 @@
       "ia_ajuste": "IA 4h d\u00e9bil (0.32) \u2192 sl_mult \u00d71.10 (1.98)"
     },
     {
-      "simbolo": "SOL_USDT",
-      "dir": "long",
-      "calidad": "nivel2",
-      "precio_entrada": 103.301625,
-      "precio_ref": 104.4,
-      "sl": 102.154,
-      "tp": 105.35912,
-      "liq": 95.50625000000001,
-      "margen": 65.31347473851007,
-      "lev": 12,
-      "hora_entrada": 496914,
-      "max_horas": 51,
-      "trailing": false,
-      "ts_entrada": "2026-09-08 17:00:00",
-      "adaptive_factor": 0.5,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "valle_local",
-      "tp_nivel": "FIB_236",
-      "atr_entrada": 0.877302,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
-    {
       "simbolo": "BNB_USDT",
       "dir": "short",
       "calidad": "nivel2",
       "precio_entrada": 743.8478900000001,
-      "precio_ref": 741.32,
+      "precio_ref": 733.66,
       "sl": 754.36176,
       "tp": 721.908128,
       "liq": 800.0365,
@@ -67,21 +45,53 @@
       "tp_nivel": "ATR_fallback",
       "atr_entrada": 4.498841,
       "ia_ajuste": "IA 4h d\u00e9bil (0.33) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "calidad": "nivel2",
+      "precio_entrada": 78046.1574,
+      "precio_ref": 78046.1574,
+      "sl": 79407.1736,
+      "tp": 75176.85808,
+      "liq": 83941.59,
+      "margen": 65.31347473851007,
+      "lev": 12,
+      "hora_entrada": 496941,
+      "max_horas": 108,
+      "trailing": false,
+      "ts_entrada": "2026-09-09 20:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "SMA50",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 449.135912,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.22) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 139,
+  "n_ops": 140,
   "n_wins": 65,
-  "n_loses": 74,
-  "pnl_total": -222.45863406535605,
-  "funding_total": 136.8841233615982,
-  "ops_hoy": [],
-  "ultima_ejecucion": "2026-09-09T18:50:12.585320+00:00",
+  "n_loses": 75,
+  "pnl_total": -234.06136592584306,
+  "funding_total": 137.82463739783273,
+  "ops_hoy": [
+    {
+      "ts": "2026-09-09 20:00:00",
+      "simbolo": "SOL_USDT",
+      "dir": "long",
+      "motivo": "stop_loss",
+      "entrada": 103.3016,
+      "salida": 102.1029,
+      "pnl": -11.6,
+      "capital": 765.94
+    }
+  ],
+  "ultima_ejecucion": "2026-09-09T21:55:52.821958+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
-    0.0,
     1.0,
     1.0,
     0.0,
@@ -100,8 +110,9 @@
     1.0,
     1.0,
     1.0,
-    1.0
+    1.0,
+    0.0
   ],
   "adaptive_factor": 0.5,
-  "adaptive_trades_left": 12
+  "adaptive_trades_left": 11
 }
