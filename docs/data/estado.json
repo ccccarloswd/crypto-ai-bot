@@ -29,7 +29,7 @@
       "dir": "long",
       "calidad": "nivel2",
       "precio_entrada": 103.301625,
-      "precio_ref": 103.301625,
+      "precio_ref": 103.37,
       "sl": 102.154,
       "tp": 105.35912,
       "liq": 95.50625000000001,
@@ -55,19 +55,8 @@
   "n_loses": 74,
   "pnl_total": -222.45863406535605,
   "funding_total": 136.8841233615982,
-  "ops_hoy": [
-    {
-      "ts": "2026-09-08 13:00:00",
-      "simbolo": "BTC_USDT",
-      "dir": "short",
-      "motivo": "take_profit",
-      "entrada": 79660.0501,
-      "salida": 77783.1939,
-      "pnl": 15.03,
-      "capital": 777.54
-    }
-  ],
-  "ultima_ejecucion": "2026-09-08T22:00:37.557708+00:00",
+  "ops_hoy": [],
+  "ultima_ejecucion": "2026-09-09T00:31:17.763704+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
