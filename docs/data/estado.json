@@ -45,6 +45,28 @@
       "tp_nivel": "MAX50",
       "atr_entrada": 32.222712,
       "ia_ajuste": "IA 4h d\u00e9bil (0.14) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "BTC_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 77190.77609999999,
+      "precio_ref": 77190.77609999999,
+      "sl": 76348.6824,
+      "tp": 78619.2684,
+      "liq": 71365.785,
+      "margen": 67.62514694594016,
+      "lev": 12,
+      "hora_entrada": 497010,
+      "max_horas": 120,
+      "trailing": false,
+      "ts_entrada": "2026-09-12 17:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "MIN20",
+      "tp_nivel": "FIB_236",
+      "atr_entrada": 227.668614,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
@@ -56,7 +78,7 @@
   "pnl_total": -194.9387268340455,
   "funding_total": 142.1591454151848,
   "ops_hoy": [],
-  "ultima_ejecucion": "2026-09-12T16:28:32.191250+00:00",
+  "ultima_ejecucion": "2026-09-12T18:42:05.319551+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
