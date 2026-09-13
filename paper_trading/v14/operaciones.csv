@@ -154,3 +154,4 @@ ts,simbolo,dir,motivo,entrada,salida,pnl,capital
 2026-09-11 13:00:00,BTC_USDT,long,trailing_stop,77073.0172,77990.1198,8.07,817.04
 2026-09-11 17:00:00,BTC_USDT,long,stop_loss,78739.45,77751.9737,-11.98,805.06
 2026-09-13 04:00:00,SOL_USDT,long,tiempo_maximo,101.4207,101.6591,-0.8,804.26
+2026-09-13 09:00:00,ETH_USDT,long,stop_loss,2526.8428,2472.7535,-16.3,787.96
