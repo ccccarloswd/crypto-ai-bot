@@ -7,7 +7,7 @@
       "dir": "long",
       "calidad": "nivel2",
       "precio_entrada": 77190.77609999999,
-      "precio_ref": 77298.9,
+      "precio_ref": 77311.5,
       "sl": 76348.6824,
       "tp": 78619.2684,
       "liq": 71365.785,
@@ -22,6 +22,28 @@
       "sl_nivel": "MIN20",
       "tp_nivel": "FIB_236",
       "atr_entrada": 227.668614,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "SOL_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 101.420685,
+      "precio_ref": 101.420685,
+      "sl": 100.39904,
+      "tp": 103.506112,
+      "liq": 93.76725,
+      "margen": 66.1884747588966,
+      "lev": 12,
+      "hora_entrada": 497037,
+      "max_horas": 88,
+      "trailing": false,
+      "ts_entrada": "2026-09-13 20:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "valle_local",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 0.519416,
       "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
@@ -55,7 +77,7 @@
       "capital": 787.96
     }
   ],
-  "ultima_ejecucion": "2026-09-13T18:19:52.953655+00:00",
+  "ultima_ejecucion": "2026-09-13T21:06:31.724938+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
