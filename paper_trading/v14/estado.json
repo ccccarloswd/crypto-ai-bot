@@ -1,43 +1,21 @@
 {
-  "capital": 777.9755112482454,
+  "capital": 789.0092932867122,
   "capital_max": 1000.0,
   "posiciones": [
-    {
-      "simbolo": "BTC_USDT",
-      "dir": "long",
-      "calidad": "nivel2",
-      "precio_entrada": 77190.77609999999,
-      "precio_ref": 78135.3,
-      "sl": 76348.6824,
-      "tp": 78619.2684,
-      "liq": 71365.785,
-      "margen": 67.62514694594016,
-      "lev": 12,
-      "hora_entrada": 497010,
-      "max_horas": 120,
-      "trailing": false,
-      "ts_entrada": "2026-09-12 17:00:00",
-      "adaptive_factor": 0.5,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "MIN20",
-      "tp_nivel": "FIB_236",
-      "atr_entrada": 227.668614,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
     {
       "simbolo": "SOL_USDT",
       "dir": "long",
       "calidad": "nivel3",
       "precio_entrada": 101.61077999999999,
-      "precio_ref": 101.61077999999999,
-      "sl": 100.39752,
+      "precio_ref": 103.61,
+      "sl": 102.11564225918643,
       "tp": 104.582448,
       "liq": 96.9898,
       "margen": 84.0213552148105,
       "lev": 20,
       "hora_entrada": 497047,
       "max_horas": 97,
-      "trailing": false,
+      "trailing": true,
       "ts_entrada": "2026-09-14 06:00:00",
       "adaptive_factor": 0.5,
       "modo_sltp": "NIVEL",
@@ -50,11 +28,11 @@
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 148,
-  "n_wins": 69,
+  "n_ops": 149,
+  "n_wins": 70,
   "n_loses": 79,
-  "pnl_total": -222.02448875175418,
-  "funding_total": 144.231641060379,
+  "pnl_total": -210.99070671328735,
+  "funding_total": 146.17924529242208,
   "ops_hoy": [
     {
       "ts": "2026-09-13 04:00:00",
@@ -85,15 +63,24 @@
       "salida": 100.3488,
       "pnl": -9.98,
       "capital": 777.98
+    },
+    {
+      "ts": "2026-09-14 18:00:00",
+      "simbolo": "BTC_USDT",
+      "dir": "long",
+      "motivo": "take_profit",
+      "entrada": 77190.7761,
+      "salida": 78579.9588,
+      "pnl": 11.03,
+      "capital": 789.01
     }
   ],
-  "ultima_ejecucion": "2026-09-14T14:23:20.027780+00:00",
+  "ultima_ejecucion": "2026-09-14T19:34:46.762901+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
     0.0,
     0.0,
-    0.0,
     1.0,
     1.0,
     0.0,
@@ -109,8 +96,9 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    1.0
   ],
   "adaptive_factor": 0.5,
-  "adaptive_trades_left": 3
+  "adaptive_trades_left": 2
 }
