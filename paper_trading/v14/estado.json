@@ -10,19 +10,8 @@
   "n_loses": 82,
   "pnl_total": -236.63544384411313,
   "funding_total": 151.96842436685975,
-  "ops_hoy": [
-    {
-      "ts": "2026-09-23 05:00:00",
-      "simbolo": "ETH_USDT",
-      "dir": "short",
-      "motivo": "stop_loss",
-      "entrada": 2748.3951,
-      "salida": 2778.2366,
-      "pnl": -20.96,
-      "capital": 763.36
-    }
-  ],
-  "ultima_ejecucion": "2026-09-23T21:44:18.828243+00:00",
+  "ops_hoy": [],
+  "ultima_ejecucion": "2026-09-24T00:51:05.133422+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
