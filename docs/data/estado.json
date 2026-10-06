@@ -1,5 +1,5 @@
 {
-  "capital": 726.6355336511114,
+  "capital": 717.0589632381791,
   "capital_max": 1000.0,
   "posiciones": [
     {
@@ -23,38 +23,16 @@
       "tp_nivel": "MIN50",
       "atr_entrada": 2.964493,
       "ia_ajuste": "IA 4h d\u00e9bil (0.33) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
-    {
-      "simbolo": "BTC_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 85256.25055,
-      "precio_ref": 85256.25055,
-      "sl": 86089.1912,
-      "tp": 83560.25936,
-      "liq": 91696.31749999999,
-      "margen": 61.037384826693355,
-      "lev": 12,
-      "hora_entrada": 497561,
-      "max_horas": 65,
-      "trailing": false,
-      "ts_entrada": "2026-10-05 16:00:00",
-      "adaptive_factor": 0.5,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "pico_local",
-      "tp_nivel": "ATR_fallback",
-      "atr_entrada": 443.326077,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.22) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 159,
+  "n_ops": 160,
   "n_wins": 74,
-  "n_loses": 85,
-  "pnl_total": -273.364466348888,
-  "funding_total": 163.9556200858048,
+  "n_loses": 86,
+  "pnl_total": -282.9410367618203,
+  "funding_total": 164.54157898014105,
   "ops_hoy": [
     {
       "ts": "2026-09-27 12:00:00",
@@ -95,12 +73,21 @@
       "salida": 122.3638,
       "pnl": 32.11,
       "capital": 726.64
+    },
+    {
+      "ts": "2026-10-06 09:00:00",
+      "simbolo": "BTC_USDT",
+      "dir": "short",
+      "motivo": "stop_loss",
+      "entrada": 85256.2505,
+      "salida": 86132.2358,
+      "pnl": -9.58,
+      "capital": 717.06
     }
   ],
-  "ultima_ejecucion": "2026-10-06T03:18:12.960377+00:00",
+  "ultima_ejecucion": "2026-10-06T10:44:43.457168+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
-    0.0,
     1.0,
     1.0,
     1.0,
@@ -119,8 +106,9 @@
     0.0,
     1.0,
     0.0,
-    1.0
+    1.0,
+    0.0
   ],
   "adaptive_factor": 0.5,
-  "adaptive_trades_left": 14
+  "adaptive_trades_left": 13
 }
