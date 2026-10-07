@@ -1,14 +1,14 @@
 {
   "version": "v14",
-  "capital_actual": 717.06,
+  "capital_actual": 729.42,
   "capital_inicial": 1000.0,
-  "rentabilidad_pct": -28.29,
-  "n_operaciones": 160,
-  "win_rate_pct": 46.2,
-  "pnl_total": -282.94,
-  "funding_total": 164.54,
-  "posiciones_abiertas": 2,
+  "rentabilidad_pct": -27.06,
+  "n_operaciones": 161,
+  "win_rate_pct": 46.6,
+  "pnl_total": -270.58,
+  "funding_total": 165.41,
+  "posiciones_abiertas": 1,
   "adaptive_factor": 0.5,
   "bot_activo": true,
-  "ultima_actualizacion": "2026-10-07T09:12:04.668846+00:00"
+  "ultima_actualizacion": "2026-10-07T22:14:30.579899+00:00"
 }
