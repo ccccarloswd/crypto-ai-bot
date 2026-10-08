@@ -1,60 +1,15 @@
 {
-  "capital": 729.4181377756603,
+  "capital": 751.7131325455605,
   "capital_max": 1000.0,
-  "posiciones": [
-    {
-      "simbolo": "BNB_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 786.5765150000001,
-      "precio_ref": 766.73,
-      "sl": 773.839244390691,
-      "tp": 763.36788,
-      "liq": 845.99275,
-      "margen": 61.037384826693355,
-      "lev": 12,
-      "hora_entrada": 497534,
-      "max_horas": 120,
-      "trailing": true,
-      "ts_entrada": "2026-10-04 13:00:00",
-      "adaptive_factor": 0.5,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "pico_local",
-      "tp_nivel": "MIN50",
-      "atr_entrada": 2.964493,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.33) \u2192 sl_mult \u00d71.10 (1.98)"
-    },
-    {
-      "simbolo": "SOL_USDT",
-      "dir": "long",
-      "calidad": "nivel2",
-      "precio_entrada": 115.03748999999999,
-      "precio_ref": 115.03748999999999,
-      "sl": 113.17016,
-      "tp": 118.49992,
-      "liq": 106.35650000000001,
-      "margen": 61.27112357315547,
-      "lev": 12,
-      "hora_entrada": 497625,
-      "max_horas": 92,
-      "trailing": false,
-      "ts_entrada": "2026-10-08 08:00:00",
-      "adaptive_factor": 0.5,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "MIN50",
-      "tp_nivel": "FIB_382",
-      "atr_entrada": 0.824677,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
-    }
-  ],
+  "posiciones": [],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 161,
-  "n_wins": 75,
-  "n_loses": 86,
-  "pnl_total": -270.5818622243391,
-  "funding_total": 165.40893350207395,
+  "n_ops": 163,
+  "n_wins": 76,
+  "n_loses": 87,
+  "pnl_total": -248.2868674544389,
+  "funding_total": 168.9246868680915,
   "ops_hoy": [
     {
       "ts": "2026-09-27 12:00:00",
@@ -115,14 +70,32 @@
       "salida": 83796.0808,
       "pnl": 12.36,
       "capital": 729.42
+    },
+    {
+      "ts": "2026-10-08 15:00:00",
+      "simbolo": "BNB_USDT",
+      "dir": "short",
+      "motivo": "trailing_stop",
+      "entrada": 786.5765,
+      "salida": 742.5008,
+      "pnl": 36.06,
+      "capital": 765.48
+    },
+    {
+      "ts": "2026-10-08 15:00:00",
+      "simbolo": "SOL_USDT",
+      "dir": "long",
+      "motivo": "stop_loss",
+      "entrada": 115.0375,
+      "salida": 113.1136,
+      "pnl": -13.77,
+      "capital": 751.71
     }
   ],
-  "ultima_ejecucion": "2026-10-08T09:25:42.891292+00:00",
+  "ultima_ejecucion": "2026-10-08T16:53:11.658166+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
-    1.0,
-    1.0,
     0.0,
     0.0,
     0.0,
@@ -139,8 +112,10 @@
     0.0,
     1.0,
     0.0,
-    1.0
+    1.0,
+    1.0,
+    0.0
   ],
   "adaptive_factor": 0.5,
-  "adaptive_trades_left": 12
+  "adaptive_trades_left": 10
 }
