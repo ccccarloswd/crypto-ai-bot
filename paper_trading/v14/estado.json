@@ -45,6 +45,28 @@
       "tp_nivel": "EMA200",
       "atr_entrada": 1.381795,
       "ia_ajuste": "IA 4h d\u00e9bil (0.27) \u2192 sl_mult \u00d71.10 (1.98)"
+    },
+    {
+      "simbolo": "BNB_USDT",
+      "dir": "long",
+      "calidad": "nivel2",
+      "precio_entrada": 731.715675,
+      "precio_ref": 731.715675,
+      "sl": 719.6292,
+      "tp": 757.13576,
+      "liq": 676.4987500000001,
+      "margen": 61.16700991072861,
+      "lev": 12,
+      "hora_entrada": 497804,
+      "max_horas": 108,
+      "trailing": false,
+      "ts_entrada": "2026-10-15 19:00:00",
+      "adaptive_factor": 0.5,
+      "modo_sltp": "NIVEL",
+      "sl_nivel": "valle_local",
+      "tp_nivel": "ATR_fallback",
+      "atr_entrada": 5.15729,
+      "ia_ajuste": "IA 4h d\u00e9bil (0.18) \u2192 sl_mult \u00d71.10 (1.98)"
     }
   ],
   "bot_activo": true,
@@ -56,7 +78,7 @@
   "pnl_total": -271.82131058656364,
   "funding_total": 171.66792337463463,
   "ops_hoy": [],
-  "ultima_ejecucion": "2026-10-15T17:18:56.132843+00:00",
+  "ultima_ejecucion": "2026-10-15T20:30:51.781400+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
