@@ -10,49 +10,8 @@
   "n_loses": 94,
   "pnl_total": -323.8738936241927,
   "funding_total": 174.40972158080032,
-  "ops_hoy": [
-    {
-      "ts": "2026-10-16 16:00:00",
-      "simbolo": "BTC_USDT",
-      "dir": "long",
-      "motivo": "stop_loss",
-      "entrada": 82556.1574,
-      "salida": 81544.84,
-      "pnl": -11.34,
-      "capital": 716.84
-    },
-    {
-      "ts": "2026-10-16 16:00:00",
-      "simbolo": "ETH_USDT",
-      "dir": "long",
-      "motivo": "stop_loss",
-      "entrada": 2433.5862,
-      "salida": 2393.7935,
-      "pnl": -13.76,
-      "capital": 703.08
-    },
-    {
-      "ts": "2026-10-16 16:00:00",
-      "simbolo": "BNB_USDT",
-      "dir": "long",
-      "motivo": "stop_loss",
-      "entrada": 731.7157,
-      "salida": 719.2694,
-      "pnl": -14.54,
-      "capital": 688.54
-    },
-    {
-      "ts": "2026-10-16 16:00:00",
-      "simbolo": "SOL_USDT",
-      "dir": "long",
-      "motivo": "stop_loss",
-      "entrada": 106.1831,
-      "salida": 104.2604,
-      "pnl": -12.41,
-      "capital": 676.13
-    }
-  ],
-  "ultima_ejecucion": "2026-10-16T21:38:48.748695+00:00",
+  "ops_hoy": [],
+  "ultima_ejecucion": "2026-10-17T00:45:07.691137+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     1.0,
