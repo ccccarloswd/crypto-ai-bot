@@ -10,19 +10,8 @@
   "n_loses": 95,
   "pnl_total": -334.4169670828028,
   "funding_total": 174.68233562689105,
-  "ops_hoy": [
-    {
-      "ts": "2026-10-18 20:00:00",
-      "simbolo": "BTC_USDT",
-      "dir": "long",
-      "motivo": "stop_loss",
-      "entrada": 81664.0116,
-      "salida": 80596.6959,
-      "pnl": -10.54,
-      "capital": 665.58
-    }
-  ],
-  "ultima_ejecucion": "2026-10-18T21:47:57.235413+00:00",
+  "ops_hoy": [],
+  "ultima_ejecucion": "2026-10-19T00:26:55.429667+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
