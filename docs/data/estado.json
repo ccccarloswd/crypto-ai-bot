@@ -1,38 +1,15 @@
 {
-  "capital": 657.9220139041789,
+  "capital": 683.5080853282054,
   "capital_max": 1000.0,
-  "posiciones": [
-    {
-      "simbolo": "BNB_USDT",
-      "dir": "short",
-      "calidad": "nivel2",
-      "precio_entrada": 748.8853700000001,
-      "precio_ref": 737.89,
-      "sl": 743.8898907950686,
-      "tp": 731.97629,
-      "liq": 805.4544999999999,
-      "margen": 110.53089833590207,
-      "lev": 12,
-      "hora_entrada": 497950,
-      "max_horas": 104,
-      "trailing": true,
-      "ts_entrada": "2026-10-21 21:00:00",
-      "adaptive_factor": 1.0,
-      "modo_sltp": "NIVEL",
-      "sl_nivel": "MAX50",
-      "tp_nivel": "SMA200",
-      "atr_entrada": 2.78211,
-      "ia_ajuste": "IA 4h d\u00e9bil (0.33) \u2192 sl_mult \u00d71.10 (1.98)"
-    }
-  ],
+  "posiciones": [],
   "bot_activo": true,
   "en_pausa": false,
   "fin_pausa_hora": null,
-  "n_ops": 173,
-  "n_wins": 77,
+  "n_ops": 174,
+  "n_wins": 78,
   "n_loses": 96,
-  "pnl_total": -342.07798609582045,
-  "funding_total": 175.21906178463547,
+  "pnl_total": -316.4919146717939,
+  "funding_total": 176.28015840866013,
   "ops_hoy": [
     {
       "ts": "2026-10-20 17:00:00",
@@ -43,14 +20,23 @@
       "salida": 735.7523,
       "pnl": -7.66,
       "capital": 657.92
+    },
+    {
+      "ts": "2026-10-22 13:00:00",
+      "simbolo": "BNB_USDT",
+      "dir": "short",
+      "motivo": "take_profit",
+      "entrada": 748.8854,
+      "salida": 732.3423,
+      "pnl": 25.59,
+      "capital": 683.51
     }
   ],
-  "ultima_ejecucion": "2026-10-22T07:55:10.208452+00:00",
+  "ultima_ejecucion": "2026-10-22T14:03:54.960084+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
     0.0,
-    0.0,
     1.0,
     0.0,
     1.0,
@@ -67,8 +53,9 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    1.0
   ],
-  "adaptive_factor": 1.0,
-  "adaptive_trades_left": 0
+  "adaptive_factor": 0.5,
+  "adaptive_trades_left": 15
 }
