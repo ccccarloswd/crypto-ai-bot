@@ -10,39 +10,8 @@
   "n_loses": 97,
   "pnl_total": -325.4383575484245,
   "funding_total": 176.28015840866013,
-  "ops_hoy": [
-    {
-      "ts": "2026-10-20 17:00:00",
-      "simbolo": "BNB_USDT",
-      "dir": "short",
-      "motivo": "stop_loss",
-      "entrada": 729.4651,
-      "salida": 735.7523,
-      "pnl": -7.66,
-      "capital": 657.92
-    },
-    {
-      "ts": "2026-10-22 13:00:00",
-      "simbolo": "BNB_USDT",
-      "dir": "short",
-      "motivo": "take_profit",
-      "entrada": 748.8854,
-      "salida": 732.3423,
-      "pnl": 25.59,
-      "capital": 683.51
-    },
-    {
-      "ts": "2026-10-26 19:00:00",
-      "simbolo": "BTC_USDT",
-      "dir": "long",
-      "motivo": "stop_loss",
-      "entrada": 80566.363,
-      "salida": 79681.3313,
-      "pnl": -8.95,
-      "capital": 674.56
-    }
-  ],
-  "ultima_ejecucion": "2026-10-26T20:43:40.967657+00:00",
+  "ops_hoy": [],
+  "ultima_ejecucion": "2026-10-27T00:46:02.765605+00:00",
   "primera_ejecucion": false,
   "historial_pnl": [
     0.0,
